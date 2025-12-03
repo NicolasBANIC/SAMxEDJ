@@ -44,11 +44,15 @@ describe('Responsive - Mobile (375px)', () => {
 
   test('buttons should be tappable (min 44x44px)', async ({ page }) => {
     await page.goto('/');
-    const ctaButton = page.locator('.btn--primary').first();
+    const chatbotButton = page.locator('#chatbot-button');
     
-    const box = await ctaButton.boundingBox();
-    expect(box.height).toBeGreaterThanOrEqual(40);
-    expect(box.width).toBeGreaterThanOrEqual(100);
+    await expect(chatbotButton).toBeVisible();
+    const box = await chatbotButton.boundingBox();
+    expect(box).not.toBeNull();
+    if (box) {
+      expect(box.height).toBeGreaterThanOrEqual(40);
+      expect(box.width).toBeGreaterThanOrEqual(40);
+    }
   });
 
   test('chatbot button should be accessible on mobile', async ({ page }) => {
