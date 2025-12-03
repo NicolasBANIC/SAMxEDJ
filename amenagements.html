@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aménagements Extérieurs Premium — Terrasses, Pavages, Escaliers | ÉCLAT DE JARDIN</title>
+    <meta name="description" content="Aménagements extérieurs haut de gamme à Strasbourg : terrasses bois et pierre, pavages authentiques, escaliers sur mesure, enrochements, clôtures design.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-hero{position:relative;height:60vh;min-height:500px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#2A2A2A 0%,var(--color-secondary) 100%);overflow:hidden}
+        .page-hero::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80') center/cover;opacity:.2}
+        .page-hero__content{position:relative;z-index:2;text-align:center;max-width:900px;padding:0 2rem}
+        .page-hero__title{font-family:var(--font-title);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;color:#fff;margin-bottom:1.5rem}
+        .page-hero__text{font-size:1.25rem;color:rgba(255,255,255,.9);line-height:1.7}
+        .amenagement-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:3rem;padding:6rem 0}
+        .amenagement-card{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.08);transition:var(--transition)}
+        .amenagement-card:hover{transform:translateY(-8px);box-shadow:0 16px 48px rgba(0,0,0,.12)}
+        .amenagement-card__image{position:relative;padding-bottom:65%;overflow:hidden}
+        .amenagement-card__image img{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+        .amenagement-card:hover .amenagement-card__image img{transform:scale(1.08)}
+        .amenagement-card__content{padding:2.5rem}
+        .amenagement-card__label{display:inline-block;font-size:.875rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--color-primary);margin-bottom:1rem}
+        .amenagement-card__content h3{font-family:var(--font-title);font-size:1.875rem;font-weight:500;color:var(--color-anthracite);margin-bottom:1rem}
+        .amenagement-card__content p{color:var(--color-text-light);font-size:1rem;line-height:1.7;margin-bottom:1.5rem}
+        .amenagement-card__specs{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem}
+        .spec-tag{padding:.5rem 1rem;background:rgba(179,136,62,.1);color:var(--color-primary-dark);font-size:.875rem;font-weight:500;border-radius:2px}
+        @media(max-width:968px){.amenagement-grid{grid-template-columns:1fr}}
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                <img src="assets/logo.svg" alt="ÉCLAT DE JARDIN" class="header__logo-img">
+                <span class="header__logo-text">ÉCLAT DE JARDIN</span>
+            </a>
+            <nav class="header__nav" id="nav">
+                <a href="index.html" class="header__nav-link">Accueil</a>
+                <a href="piscines.html" class="header__nav-link">Piscines</a>
+                <a href="amenagements.html" class="header__nav-link active">Aménagements Extérieurs</a>
+                <a href="containers.html" class="header__nav-link">Containers Architecturaux</a>
+                <a href="realisations.html" class="header__nav-link">Réalisations</a>
+                <a href="contact.html" class="header__nav-link">Contact</a>
+            </nav>
+            <div class="header__actions">
+                <a href="tel:+33652211072" class="header__phone">06 52 21 10 72</a>
+                <a href="contact.html" class="btn btn--primary">Demander une étude</a>
+            </div>
+            <button class="header__burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="page-hero__content">
+                <h1 class="page-hero__title" data-scroll>Aménagements Extérieurs</h1>
+                <p class="page-hero__text" data-scroll>Terrasses nobles, pavages authentiques, escaliers structurants et clôtures design pour sublimer vos espaces extérieurs</p>
+            </div>
+        </section>
+
+        <div class="container amenagement-grid">
+            <article class="amenagement-card" id="terrasses" data-scroll>
+                <div class="amenagement-card__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80" alt="Terrasses premium">
+                </div>
+                <div class="amenagement-card__content">
+                    <span class="amenagement-card__label">Excellence & Pérennité</span>
+                    <h3>Terrasses Premium</h3>
+                    <p>Nos terrasses conjuguent esthétique raffinée et résistance aux intempéries. Bois exotiques certifiés FSC (ipé, cumaru, teck), composites coextrudés haute densité garantis 25 ans, ou pierres naturelles (travertin, granit, grès cérame 20mm). Structure porteuse dimensionnée : lambourdes aluminium ou bois classe 4, plots réglables béton, drainage intégré. Finitions invisibles ou apparentes selon esthétique recherchée.</p>
+                    <div class="amenagement-card__specs">
+                        <span class="spec-tag">Bois exotiques FSC</span>
+                        <span class="spec-tag">Composite premium</span>
+                        <span class="spec-tag">Pierre naturelle</span>
+                        <span class="spec-tag">Grès cérame 20mm</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="amenagement-card" data-scroll>
+                <div class="amenagement-card__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?w=800&q=80" alt="Pavages et dallages">
+                </div>
+                <div class="amenagement-card__content">
+                    <span class="amenagement-card__label">Authenticité minérale</span>
+                    <h3>Pavages & Dallages</h3>
+                    <p>Pavages authentiques en grès des Vosges, granit breton, porphyre ou basalte. Pose traditionnelle sur lit de sable stabilisé ou contemporaine sur dalle béton avec joints mortier. Dallages pierre massive : opus romain, format moderne grand format, calepinage personnalisé. Intégration harmonieuse dans l'environnement bâti, respect des pentes d'écoulement, joints techniques drainants ou étanches selon usage.</p>
+                    <div class="amenagement-card__specs">
+                        <span class="spec-tag">Grès des Vosges</span>
+                        <span class="spec-tag">Granit breton</span>
+                        <span class="spec-tag">Opus romain</span>
+                        <span class="spec-tag">Joints drainants</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="amenagement-card" data-scroll>
+                <div class="amenagement-card__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80" alt="Escaliers extérieurs">
+                </div>
+                <div class="amenagement-card__content">
+                    <span class="amenagement-card__label">Design structurant</span>
+                    <h3>Escaliers Extérieurs</h3>
+                    <p>Escaliers sur mesure en pierre massive (granit, calcaire, travertin), béton architectonique brut ou ciré, ou structure métallique acier corten avec marches bois. Étude d'ergonomie normée : giron 28-35cm, hauteur marche 15-18cm, calcul structure adapté au terrain. Fondations profondes hors gel, drainage arrière, main courante inox brossé ou garde-corps verre. Intégration éclairage LED encastré dans contremarches ou mains courantes pour sécurité nocturne.</p>
+                    <div class="amenagement-card__specs">
+                        <span class="spec-tag">Pierre massive</span>
+                        <span class="spec-tag">Béton architectonique</span>
+                        <span class="spec-tag">Acier corten</span>
+                        <span class="spec-tag">Éclairage LED intégré</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="amenagement-card" data-scroll>
+                <div class="amenagement-card__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Gazon et plantations">
+                </div>
+                <div class="amenagement-card__content">
+                    <span class="amenagement-card__label">Paysage architecturé</span>
+                    <h3>Gazon & Plantations</h3>
+                    <p>Création de pelouses résistantes : préparation du sol (décompactage, amendement organique, nivellement laser), semis de mélanges adaptés au climat alsacien et à l'usage (ornement, piétinement intensif, ombre). Plantations architecturées : massifs structurants, haies persistantes taillées (taxus, ligustrum), arbres d'ombrage, graminées ornementales. Arrosage automatique enterré programmable, éclairage paysager LED basse tension, paillage minéral ou végétal.</p>
+                    <div class="amenagement-card__specs">
+                        <span class="spec-tag">Gazon résistant</span>
+                        <span class="spec-tag">Haies persistantes</span>
+                        <span class="spec-tag">Arrosage auto</span>
+                        <span class="spec-tag">Éclairage LED</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="amenagement-card" data-scroll>
+                <div class="amenagement-card__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Enrochements paysagers">
+                </div>
+                <div class="amenagement-card__content">
+                    <span class="amenagement-card__label">Force & Esthétique</span>
+                    <h3>Enrochements Paysagers</h3>
+                    <p>L'enrochement allie fonction structurelle (soutènement de talus, stabilisation de terrain en pente) et esthétique minérale puissante. Blocs de pierre locale (grès des Vosges rose, calcaire ocre, granit gris) de 200 à 800 kg. Étude géotechnique préalable, terrassement en gradins successifs, pose mécanique par pelle araignée, drainage arrière par géotextile et drains agricoles. Intégration de plantes rupestres (sedum, saxifrages) dans les interstices. Particulièrement adapté aux terrains difficiles et pentus.</p>
+                    <div class="amenagement-card__specs">
+                        <span class="spec-tag">Grès des Vosges</span>
+                        <span class="spec-tag">Soutènement</span>
+                        <span class="spec-tag">Drainage intégré</span>
+                        <span class="spec-tag">Plantations rupestres</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="amenagement-card" data-scroll>
+                <div class="amenagement-card__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80" alt="Clôtures design">
+                </div>
+                <div class="amenagement-card__content">
+                    <span class="amenagement-card__label">Intimité & Design</span>
+                    <h3>Clôtures Haut de Gamme</h3>
+                    <p>Gamme complète de clôtures premium : panneaux bois claire-voie (red cedar, mélèze autoclave), lames composites coextrudées garantie 25 ans, claustra aluminium thermolaqué RAL au choix, gabions pierre naturelle, ou clôture végétale sur structure acier. Respect PLU et mitoyenneté, fondations béton normées, poteaux scellés ou platines fixées. Portails motorisés intégrables (battants ou coulissants) avec automatisme connecté, visiophone et contrôle d'accès.</p>
+                    <div class="amenagement-card__specs">
+                        <span class="spec-tag">Bois claire-voie</span>
+                        <span class="spec-tag">Alu thermolaqué</span>
+                        <span class="spec-tag">Gabions pierre</span>
+                        <span class="spec-tag">Portail motorisé</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content glass" data-scroll>
+                    <h2>Transformons votre espace extérieur</h2>
+                    <p>Visite technique sur site, relevé topographique, conception 3D et chiffrage détaillé personnalisé. Étude gratuite et sans engagement.</p>
+                    <a href="contact.html" class="btn btn--primary btn--large">Demander une étude gratuite</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <img src="assets/logo.svg" alt="ÉCLAT DE JARDIN" class="footer__logo">
+                    <p class="footer__text">Architectes de votre univers extérieur. Piscines premium, aménagements d'exception et containers sur mesure à Strasbourg.</p>
+                </div>
+                <div class="footer__col">
+                    <h4>Navigation</h4>
+                    <nav class="footer__nav">
+                        <a href="index.html">Accueil</a>
+                        <a href="piscines.html">Piscines</a>
+                        <a href="amenagements.html">Aménagements Extérieurs</a>
+                        <a href="containers.html">Containers Architecturaux</a>
+                        <a href="realisations.html">Réalisations</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+                <div class="footer__col">
+                    <h4>Nos expertises</h4>
+                    <nav class="footer__nav">
+                        <a href="piscines.html#coque">Piscines coque</a>
+                        <a href="piscines.html#maconnee">Piscines maçonnées</a>
+                        <a href="piscines.html#container">Piscines containers</a>
+                        <a href="amenagements.html#terrasses">Terrasses premium</a>
+                        <a href="containers.html#poolhouse">Pool houses</a>
+                    </nav>
+                </div>
+                <div class="footer__col">
+                    <h4>Contact</h4>
+                    <div class="footer__contact">
+                        <p><strong>ÉCLAT DE JARDIN</strong></p>
+                        <p>1 Rue Kellermann<br>67300 Schiltigheim</p>
+                        <p><a href="tel:+33652211072">06 52 21 10 72</a></p>
+                        <p><a href="mailto:contact@eclatdejardin.fr">contact@eclatdejardin.fr</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Éclat de Jardin. Tous droits réservés.</p>
+                <p>Mentions légales · Politique de confidentialité · CGV</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="chatbot">
+        <button class="chatbot__button glass" id="chatbot-button" aria-label="Ouvrir le chatbot">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="chatbot__panel glass" id="chatbot-panel">
+            <div class="chatbot__header">
+                <h3>Assistant Éclat de Jardin</h3>
+                <button class="chatbot__close" id="chatbot-close">&times;</button>
+            </div>
+            <div class="chatbot__messages" id="chatbot-messages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <p>Bonjour et bienvenue chez Éclat de Jardin. Je suis votre assistante virtuelle et je suis à votre disposition pour répondre à toutes vos questions concernant nos piscines, aménagements extérieurs et containers architecturaux. Comment puis-je vous accompagner aujourd'hui ?</p>
+                </div>
+            </div>
+            <form class="chatbot__form" id="chatbot-form">
+                <input type="text" class="chatbot__input" id="chatbot-input" placeholder="Posez votre question..." autocomplete="off">
+                <button type="submit" class="chatbot__submit" aria-label="Envoyer">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M19 1L9 11M19 1l-6 18-4-8-8-4 18-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

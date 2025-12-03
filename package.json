@@ -1,0 +1,27 @@
+{
+  "name": "eclat-de-jardin",
+  "version": "1.0.0",
+  "description": "Site premium pour Éclat de Jardin - Piscines & Aménagements Strasbourg",
+  "scripts": {
+    "dev": "npx live-server --port=3000 --host=localhost --no-browser",
+    "start": "npx live-server --port=3000 --host=localhost",
+    "test": "node node_modules/@playwright/test/cli.js test",
+    "test:ui": "node node_modules/@playwright/test/cli.js test --ui",
+    "test:headed": "node node_modules/@playwright/test/cli.js test --headed",
+    "test:debug": "node node_modules/@playwright/test/cli.js test --debug",
+    "test:report": "node node_modules/@playwright/test/cli.js show-report"
+  },
+  "keywords": [
+    "piscines",
+    "aménagements",
+    "containers",
+    "strasbourg"
+  ],
+  "author": "Éclat de Jardin",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Devis Gratuit — ÉCLAT DE JARDIN | Strasbourg</title>
+    <meta name="description" content="Contactez Éclat de Jardin pour votre projet de piscine ou aménagement extérieur. Visite technique gratuite, étude personnalisée. 1 Rue Kellermann, Schiltigheim.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-hero {
+            position: relative;
+            height: 50vh;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--color-anthracite) 0%, var(--color-secondary) 100%);
+        }
+        
+        .page-hero__content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 800px;
+            padding: 0 2rem;
+        }
+        
+        .page-hero__title {
+            font-family: var(--font-title);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 300;
+            color: var(--color-white);
+            margin-bottom: 1rem;
+        }
+        
+        .page-hero__text {
+            font-size: 1.125rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.7;
+        }
+        
+        .contact-section {
+            padding: 6rem 0;
+            background: var(--color-bg);
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 4rem;
+        }
+        
+        .contact-form {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(20px);
+            padding: 3rem;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        }
+        
+        .contact-form h2 {
+            font-family: var(--font-title);
+            font-size: 2rem;
+            font-weight: 500;
+            color: var(--color-anthracite);
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-form p {
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .form-group label {
+            font-size: 0.9375rem;
+            font-weight: 500;
+            color: var(--color-anthracite);
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 0.875rem 1.125rem;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 2px;
+            font-family: var(--font-body);
+            font-size: 0.9375rem;
+            background: rgba(255, 255, 255, 0.8);
+            transition: var(--transition-fast);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            background: rgba(255, 255, 255, 1);
+        }
+        
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        .info-card {
+            background: var(--color-white);
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+        
+        .info-card h3 {
+            font-family: var(--font-title);
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--color-anthracite);
+            margin-bottom: 1.5rem;
+        }
+        
+        .info-item {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.25rem;
+        }
+        
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .info-item__icon {
+            width: 40px;
+            height: 40px;
+            min-width: 40px;
+            background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-white);
+        }
+        
+        .info-item__content strong {
+            display: block;
+            color: var(--color-anthracite);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .info-item__content span {
+            color: var(--color-text-light);
+            font-size: 0.9375rem;
+        }
+        
+        .info-item__content a {
+            color: var(--color-primary);
+            font-weight: 500;
+        }
+        
+        .map-section {
+            position: relative;
+            height: 500px;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .map-overlay {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 2rem;
+            border-radius: 4px;
+            max-width: 350px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+        }
+        
+        .map-overlay h3 {
+            font-family: var(--font-title);
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--color-anthracite);
+            margin-bottom: 1rem;
+        }
+        
+        .map-overlay p {
+            color: var(--color-text-light);
+            margin-bottom: 0.5rem;
+        }
+        
+        .map-overlay strong {
+            color: var(--color-anthracite);
+        }
+        
+        @media (max-width: 968px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .map-overlay {
+                position: static;
+                max-width: none;
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                <img src="assets/logo.svg" alt="ÉCLAT DE JARDIN" class="header__logo-img">
+                <span class="header__logo-text">ÉCLAT DE JARDIN</span>
+            </a>
+            
+            <nav class="header__nav" id="nav">
+                <a href="index.html" class="header__nav-link">Accueil</a>
+                <a href="piscines.html" class="header__nav-link">Piscines</a>
+                <a href="amenagements.html" class="header__nav-link">Aménagements Extérieurs</a>
+                <a href="containers.html" class="header__nav-link">Containers Architecturaux</a>
+                <a href="realisations.html" class="header__nav-link">Réalisations</a>
+                <a href="contact.html" class="header__nav-link active">Contact</a>
+            </nav>
+
+            <div class="header__actions">
+                <a href="tel:+33652211072" class="header__phone">06 52 21 10 72</a>
+                <a href="contact.html" class="btn btn--primary">Demander une étude</a>
+            </div>
+
+            <button class="header__burger" id="burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="page-hero__content">
+                <h1 class="page-hero__title">Échangeons sur votre projet</h1>
+                <p class="page-hero__text">Visite technique gratuite · Étude personnalisée · Devis détaillé sous 10 jours</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form glass" data-scroll>
+                        <h2>Demande d'étude gratuite</h2>
+                        <p>Complétez ce formulaire pour nous présenter votre projet. Nous vous recontactons sous 24h ouvrées.</p>
+                        
+                        <form id="contact-form">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="nom">Nom *</label>
+                                    <input type="text" id="nom" name="nom" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="prenom">Prénom *</label>
+                                    <input type="text" id="prenom" name="prenom" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="telephone">Téléphone *</label>
+                                    <input type="tel" id="telephone" name="telephone" required>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label for="adresse">Adresse du projet *</label>
+                                    <input type="text" id="adresse" name="adresse" placeholder="Adresse complète du chantier" required>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label for="projet">Type de projet *</label>
+                                    <select id="projet" name="projet" required>
+                                        <option value="">-- Sélectionnez --</option>
+                                        <option value="piscine-coque">Piscine coque polyester</option>
+                                        <option value="piscine-maconnee">Piscine maçonnée béton</option>
+                                        <option value="piscine-container">Piscine container</option>
+                                        <option value="piscine-sur-mesure">Piscine sur mesure architecturale</option>
+                                        <option value="terrasse">Terrasse bois/composite/pierre</option>
+                                        <option value="amenagement-complet">Aménagement extérieur complet</option>
+                                        <option value="container-poolhouse">Container pool house</option>
+                                        <option value="container-bureau">Container bureau/atelier</option>
+                                        <option value="autre">Autre projet</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label for="message">Descriptif de votre projet *</label>
+                                    <textarea id="message" name="message" placeholder="Décrivez-nous votre vision, vos contraintes, vos souhaits techniques..." required></textarea>
+                                </div>
+                                
+                                <div class="form-group full-width">
+                                    <label for="fichier">Joindre des documents (plans, photos terrain...)</label>
+                                    <input type="file" id="fichier" name="fichier" multiple accept=".pdf,.jpg,.jpeg,.png,.dwg">
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn--primary btn--large" style="width: 100%;">Envoyer ma demande d'étude</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-card" data-scroll>
+                            <h3>Coordonnées</h3>
+                            
+                            <div class="info-item">
+                                <div class="info-item__icon">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6z" stroke="currentColor" stroke-width="2"/>
+                                        <circle cx="10" cy="8" r="2" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="info-item__content">
+                                    <strong>Adresse</strong>
+                                    <span>1 Rue Kellermann<br>67300 Schiltigheim<br>France</span>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-item__icon">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M2 3h16a1 1 0 011 1v12a1 1 0 01-1 1H2a1 1 0 01-1-1V4a1 1 0 011-1z" stroke="currentColor" stroke-width="2"/>
+                                        <path d="M19 4L10 11 1 4" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="info-item__content">
+                                    <strong>Email</strong>
+                                    <span><a href="mailto:contact@eclatdejardin.fr">contact@eclatdejardin.fr</a></span>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-item__icon">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M2 3h4l2 5-2 2a12 12 0 007 7l2-2 5 2v4a2 2 0 01-2 2A16 16 0 012 5a2 2 0 012-2z" stroke="currentColor" stroke-width="2"/>
+                                    </svg>
+                                </div>
+                                <div class="info-item__content">
+                                    <strong>Téléphone</strong>
+                                    <span><a href="tel:+33652211072">06 52 21 10 72</a><br>Du lundi au vendredi<br>9h00 - 18h00</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card" data-scroll>
+                            <h3>Zone d'intervention</h3>
+                            <p><strong>Bas-Rhin (67)</strong> : Strasbourg, Schiltigheim, Haguenau, Sélestat, Saverne, Molsheim, Obernai</p>
+                            <p><strong>Haut-Rhin (68)</strong> : Colmar, Mulhouse, Guebwiller</p>
+                            <p><strong>Moselle (57)</strong> : Sarrebourg, Sarreguemines</p>
+                            <p><strong>Vosges (88)</strong> : Saint-Dié-des-Vosges</p>
+                            <p>Pour des projets d'envergure, nous étudions les demandes dans tout le Grand Est.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-section" data-scroll>
+                    <div class="map-overlay glass">
+                        <h3>Visitez notre showroom</h3>
+                        <p><strong>ÉCLAT DE JARDIN</strong></p>
+                        <p>1 Rue Kellermann<br>67300 Schiltigheim</p>
+                        <p>Sur rendez-vous uniquement</p>
+                        <a href="tel:+33652211072" class="btn btn--outline" style="margin-top: 1rem; width: 100%;">Prendre rendez-vous</a>
+                    </div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.1749!2d7.7394!3d48.6083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8f7d8b8b8b%3A0x1234567890!2s1%20Rue%20Kellermann%2C%2067300%20Schiltigheim!5e0!3m2!1sfr!2sfr!4v1234567890"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <img src="assets/logo.svg" alt="ÉCLAT DE JARDIN" class="footer__logo">
+                    <p class="footer__text">Architectes de votre univers extérieur. Piscines premium, aménagements d'exception et containers sur mesure à Strasbourg.</p>
+                </div>
+
+                <div class="footer__col">
+                    <h4>Navigation</h4>
+                    <nav class="footer__nav">
+                        <a href="index.html">Accueil</a>
+                        <a href="piscines.html">Piscines</a>
+                        <a href="amenagements.html">Aménagements Extérieurs</a>
+                        <a href="containers.html">Containers Architecturaux</a>
+                        <a href="realisations.html">Réalisations</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+
+                <div class="footer__col">
+                    <h4>Nos expertises</h4>
+                    <nav class="footer__nav">
+                        <a href="piscines.html#coque">Piscines coque</a>
+                        <a href="piscines.html#maconnee">Piscines maçonnées</a>
+                        <a href="piscines.html#container">Piscines containers</a>
+                        <a href="amenagements.html#terrasses">Terrasses premium</a>
+                        <a href="containers.html#poolhouse">Pool houses</a>
+                    </nav>
+                </div>
+
+                <div class="footer__col">
+                    <h4>Contact</h4>
+                    <div class="footer__contact">
+                        <p><strong>ÉCLAT DE JARDIN</strong></p>
+                        <p>1 Rue Kellermann<br>67300 Schiltigheim</p>
+                        <p><a href="tel:+33652211072">06 52 21 10 72</a></p>
+                        <p><a href="mailto:contact@eclatdejardin.fr">contact@eclatdejardin.fr</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 Éclat de Jardin. Tous droits réservés.</p>
+                <p>Mentions légales · Politique de confidentialité · CGV</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="chatbot">
+        <button class="chatbot__button glass" id="chatbot-button" aria-label="Ouvrir le chatbot">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <div class="chatbot__panel glass" id="chatbot-panel">
+            <div class="chatbot__header">
+                <h3>Assistant Éclat de Jardin</h3>
+                <button class="chatbot__close" id="chatbot-close">&times;</button>
+            </div>
+            <div class="chatbot__messages" id="chatbot-messages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <p>Bonjour et bienvenue chez Éclat de Jardin. Je suis votre assistante virtuelle et je suis à votre disposition pour répondre à toutes vos questions concernant nos piscines, aménagements extérieurs et containers architecturaux. Comment puis-je vous accompagner aujourd'hui ?</p>
+                </div>
+            </div>
+            <form class="chatbot__form" id="chatbot-form">
+                <input type="text" class="chatbot__input" id="chatbot-input" placeholder="Posez votre question..." autocomplete="off">
+                <button type="submit" class="chatbot__submit" aria-label="Envoyer">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M19 1L9 11M19 1l-6 18-4-8-8-4 18-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Merci pour votre demande ! Nous vous recontactons sous 24h ouvrées.');
+        });
+    </script>
+</body>
+</html>

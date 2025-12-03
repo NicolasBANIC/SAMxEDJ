@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piscines Premium — Coques, Maçonnées, Containers | ÉCLAT DE JARDIN</title>
+    <meta name="description" content="Conception et réalisation de piscines haut de gamme à Strasbourg : coques polyester, maçonnerie béton armé, piscines containers. Filtration premium, hydraulique optimisée.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-hero {
+            position: relative;
+            height: 60vh;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-light) 100%);
+            overflow: hidden;
+        }
+        
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1920&q=80') center/cover;
+            opacity: 0.2;
+        }
+        
+        .page-hero__content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 900px;
+            padding: 0 2rem;
+        }
+        
+        .page-hero__title {
+            font-family: var(--font-title);
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 300;
+            color: var(--color-white);
+            margin-bottom: 1.5rem;
+        }
+        
+        .page-hero__text {
+            font-size: 1.25rem;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.7;
+        }
+        
+        .piscine-types {
+            padding: 6rem 0;
+            background: var(--color-white);
+        }
+        
+        .piscine-type {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            margin-bottom: 6rem;
+            padding-bottom: 6rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        }
+        
+        .piscine-type:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .piscine-type:nth-child(even) {
+            direction: rtl;
+        }
+        
+        .piscine-type:nth-child(even) > * {
+            direction: ltr;
+        }
+        
+        .piscine-type__image {
+            position: relative;
+            padding-bottom: 75%;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+        
+        .piscine-type__image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .piscine-type__content h3 {
+            font-family: var(--font-title);
+            font-size: 2.25rem;
+            font-weight: 500;
+            color: var(--color-anthracite);
+            margin-bottom: 1.5rem;
+        }
+        
+        .piscine-type__label {
+            display: inline-block;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .piscine-type__content p {
+            color: var(--color-text-light);
+            font-size: 1.0625rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+        
+        .piscine-type__specs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .spec-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        .spec-item__icon {
+            width: 40px;
+            height: 40px;
+            min-width: 40px;
+            background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-white);
+            font-weight: 600;
+            font-size: 0.75rem;
+        }
+        
+        .spec-item__text {
+            flex: 1;
+        }
+        
+        .spec-item__text strong {
+            display: block;
+            color: var(--color-anthracite);
+            font-size: 0.9375rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .spec-item__text span {
+            color: var(--color-text-light);
+            font-size: 0.875rem;
+        }
+        
+        @media (max-width: 968px) {
+            .piscine-type {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .piscine-type:nth-child(even) {
+                direction: ltr;
+            }
+            
+            .piscine-type__specs {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="index.html" class="header__logo">
+                <img src="assets/logo.svg" alt="ÉCLAT DE JARDIN" class="header__logo-img">
+                <span class="header__logo-text">ÉCLAT DE JARDIN</span>
+            </a>
+            
+            <nav class="header__nav" id="nav">
+                <a href="index.html" class="header__nav-link">Accueil</a>
+                <a href="piscines.html" class="header__nav-link active">Piscines</a>
+                <a href="amenagements.html" class="header__nav-link">Aménagements Extérieurs</a>
+                <a href="containers.html" class="header__nav-link">Containers Architecturaux</a>
+                <a href="realisations.html" class="header__nav-link">Réalisations</a>
+                <a href="contact.html" class="header__nav-link">Contact</a>
+            </nav>
+
+            <div class="header__actions">
+                <a href="tel:+33652211072" class="header__phone">06 52 21 10 72</a>
+                <a href="contact.html" class="btn btn--primary">Demander une étude</a>
+            </div>
+
+            <button class="header__burger" id="burger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="page-hero__content">
+                <h1 class="page-hero__title" data-scroll>Piscines Premium</h1>
+                <p class="page-hero__text" data-scroll>Conception et réalisation de bassins d'exception alliant performance technique, qualité des matériaux et esthétique architecturale contemporaine</p>
+            </div>
+        </section>
+
+        <div class="container piscine-types">
+            <article class="piscine-type" id="coque" data-scroll>
+                <div class="piscine-type__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&q=80" alt="Piscine coque polyester">
+                </div>
+                <div class="piscine-type__content">
+                    <span class="piscine-type__label">Installation rapide</span>
+                    <h3>Piscines Coque Polyester</h3>
+                    <p>Nos piscines coques polyester conjuguent rapidité d'installation, garantie structure longue durée et surface parfaitement lisse facilitant l'entretien quotidien. Fabriquées en France par nos partenaires certifiés, les coques bénéficient d'un process industriel rigoureux garantissant résistance aux UV, stabilité dimensionnelle et étanchéité absolue.</p>
+                    
+                    <p>Le polyester renforcé de fibres de verre offre une solidité structurelle éprouvée. La gelcoat de finition, appliquée en usine, résiste au chlore, aux variations de pH et aux agressions climatiques. Gamme complète de dimensions (de 4x2m à 12x4m), formes rectangulaires, haricots, couloirs de nage ou créations libres.</p>
+
+                    <div class="piscine-type__specs">
+                        <div class="spec-item">
+                            <div class="spec-item__icon">01</div>
+                            <div class="spec-item__text">
+                                <strong>Excavation & terrassement</strong>
+                                <span>Relevé topographique, excavation laser guidée, gestion déblais</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">02</div>
+                            <div class="spec-item__text">
+                                <strong>Lit de pose stabilisé</strong>
+                                <span>Fond sable-ciment compacté, nivellement parfait, drainage périphérique</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">03</div>
+                            <div class="spec-item__text">
+                                <strong>Pose & remblaiement</strong>
+                                <span>Manutention grue, positionnement précis, remblai béton maigre ou gravier</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">04</div>
+                            <div class="spec-item__text">
+                                <strong>Hydraulique complète</strong>
+                                <span>Filtration dimensionnée, pompe variable, skimmers intégrés, buses refoulement</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p><strong>Avantages techniques :</strong> installation complète en 3 à 4 semaines, garantie structure 10 ans, étanchéité d'origine garantie, surface non poreuse limitant le développement d'algues, résistance mécanique élevée, faible coefficient de dilatation.</p>
+
+                    <a href="contact.html" class="btn btn--outline">Obtenir un devis personnalisé</a>
+                </div>
+            </article>
+
+            <article class="piscine-type" id="maconnee" data-scroll>
+                <div class="piscine-type__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1584622781867-3aee0ec1c2c3?w=800&q=80" alt="Piscine maçonnée béton">
+                </div>
+                <div class="piscine-type__content">
+                    <span class="piscine-type__label">Sur mesure intégral</span>
+                    <h3>Piscines Maçonnées Béton Armé</h3>
+                    <p>La piscine maçonnée en béton armé représente la solution premium par excellence pour les projets architecturaux exigeants nécessitant une liberté totale de conception. Forme libre, dimensions sur mesure, débordements cascade, plages immergées, escaliers intégrés : tout devient possible. Cette technique constructive traditionnelle garantit pérennité et robustesse structurelle maximale.</p>
+                    
+                    <p>Notre méthodologie repose sur un ferraillage ingénieur calculé selon DTU 14.1, un béton C25/30 XA2 résistant aux environnements agressifs, une cure contrôlée pour éviter fissuration, et un système d'étanchéité multicouche (enduit hydraulique + résine époxy ou membrane armée). Nous intervenons sur terrains complexes, en pente, avec nappe phréatique ou contraintes géotechniques particulières.</p>
+
+                    <div class="piscine-type__specs">
+                        <div class="spec-item">
+                            <div class="spec-item__icon">01</div>
+                            <div class="spec-item__text">
+                                <strong>Étude structure & ferraillage</strong>
+                                <span>Plans béton armé, calcul charges, descentes de charge, radier porteur</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">02</div>
+                            <div class="spec-item__text">
+                                <strong>Radier & voiles</strong>
+                                <span>Fond béton 20cm armé, voiles 15-20cm, ferraillage HA croisé, renforts angles</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">03</div>
+                            <div class="spec-item__text">
+                                <strong>Étanchéité professionnelle</strong>
+                                <span>Enduit ciment-résine 4 couches, primaire accroche, finition lissée</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">04</div>
+                            <div class="spec-item__text">
+                                <strong>Revêtement au choix</strong>
+                                <span>Liner armé 150/100e, membrane PVC, carrelage émaux, mosaïque verre</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p><strong>Points forts :</strong> adaptation à tous terrains et configurations, formes totalement personnalisables, intégration harmonieuse dans l'environnement bâti, possibilité de débordement sur plusieurs côtés, résistance sismique certifiée, durée de vie supérieure à 50 ans avec entretien adapté.</p>
+
+                    <a href="contact.html" class="btn btn--outline">Consulter nos architectes piscines</a>
+                </div>
+            </article>
+
+            <article class="piscine-type" id="container" data-scroll>
+                <div class="piscine-type__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80" alt="Piscine container">
+                </div>
+                <div class="piscine-type__content">
+                    <span class="piscine-type__label">Design contemporain</span>
+                    <h3>Piscines Containers</h3>
+                    <p>La piscine container incarne le renouveau esthétique de la baignade privée : lignes épurées, design industriel assumé, modularité et rapidité d'installation. Nous transformons des containers maritimes 20 pieds (6m) ou 40 pieds (12m) en bassins étanches haut de gamme intégrant structure acier corten, traitement anti-corrosion multicouche, isolation thermique périphérique et revêtement intérieur résine époxy alimentaire.</p>
+                    
+                    <p>Le container est découpé, renforcé structurellement, sablé puis protégé par galvanisation à chaud et peinture époxy. L'intérieur reçoit une isolation polystyrène extrudé haute densité, puis un revêtement liner armé 150/100e ou PVC renforcé. Fenêtres acryliques latérales possibles pour vision sous-marine spectaculaire. Livraison par convoi exceptionnel, pose sur dalle béton préparée avec plots réglables et raccordements hydrauliques pré-intégrés.</p>
+
+                    <div class="piscine-type__specs">
+                        <div class="spec-item">
+                            <div class="spec-item__icon">01</div>
+                            <div class="spec-item__text">
+                                <strong>Structure acier renforcée</strong>
+                                <span>Container maritime grade A, renfort soudé, traitement anti-rouille</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">02</div>
+                            <div class="spec-item__text">
+                                <strong>Traitement & étanchéité</strong>
+                                <span>Galvanisation, époxy alimentaire, liner armé 150/100e garanti 10 ans</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">03</div>
+                            <div class="spec-item__text">
+                                <strong>Équipements intégrés</strong>
+                                <span>Filtration compacte, chauffage, éclairage LED RGB, jets hydromassage</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">04</div>
+                            <div class="spec-item__text">
+                                <strong>Installation express</strong>
+                                <span>Livraison site, pose grue, raccordements, mise en eau : 1 journée</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p><strong>Atouts majeurs :</strong> esthétique industrielle moderne, installation ultra-rapide (fabrication atelier 8 semaines, pose 1 jour), possibilité de déplacement futur, robustesse extrême, fenêtres panoramiques optionnelles, intégration chauffage solaire, coût maîtrisé, garantie structure 15 ans.</p>
+
+                    <a href="contact.html" class="btn btn--outline">Découvrir nos modèles containers</a>
+                </div>
+            </article>
+
+            <article class="piscine-type" data-scroll>
+                <div class="piscine-type__image parallax-img">
+                    <img src="https://images.unsplash.com/photo-1519974719382-af1e8c0ca29c?w=800&q=80" alt="Piscine sur mesure architecturale">
+                </div>
+                <div class="piscine-type__content">
+                    <span class="piscine-type__label">Création unique</span>
+                    <h3>Piscines Sur Mesure Architecturales</h3>
+                    <p>Pour les projets d'exception nécessitant une approche singulière, nous concevons des bassins architecturaux uniques en étroite collaboration avec votre architecte ou notre bureau d'études intégré. Piscines à débordement panoramique, bassins miroirs intégrés dans la topographie, couloirs de nage semi-enterrés, piscines suspendues sur structure métallique, bassins géométriques minimalistes : chaque réalisation est pensée comme une œuvre singulière.</p>
+                    
+                    <p>Nous combinons ingénierie structurelle avancée (calculs éléments finis, modélisation 3D BIM, simulations hydrauliques CFD), matériaux d'exception (béton haute performance C35/45, aciers inoxydables A4, pierres naturelles massives) et équipements premium (filtration biologique, traitement UV-C, chauffage géothermique, automatisation domotique complète). Respect des contraintes PLU, intégration dans sites classés, démarches administratives accompagnées.</p>
+
+                    <div class="piscine-type__specs">
+                        <div class="spec-item">
+                            <div class="spec-item__icon">01</div>
+                            <div class="spec-item__text">
+                                <strong>Conception architecturale</strong>
+                                <span>Plans 3D, maquette numérique BIM, simulations lumière & ombre</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">02</div>
+                            <div class="spec-item__text">
+                                <strong>Ingénierie structure</strong>
+                                <span>Bureau d'études béton armé, calculs sismiques, descente de charges</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">03</div>
+                            <div class="spec-item__text">
+                                <strong>Matériaux d'exception</strong>
+                                <span>Béton architectonique, inox brossé, pierre massive, verre trempé</span>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <div class="spec-item__icon">04</div>
+                            <div class="spec-item__text">
+                                <strong>Automatisation complète</strong>
+                                <span>Domotique piscine, régulation connectée, éclairage scénographique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p><strong>Réalisations emblématiques :</strong> piscine débordement 360° avec bac tampon enterré, couloir de nage vitré semi-enterré à flanc de coteau, bassin géométrique noir absolu en béton ciré, piscine biologique naturelle à filtration par lagunage, piscine chauffée géothermie avec volet automatique immergé.</p>
+
+                    <a href="contact.html" class="btn btn--outline">Évoquer votre vision architecturale</a>
+                </div>
+            </article>
+        </div>
+
+        <section class="technicite" style="background: var(--color-bg);">
+            <div class="container">
+                <div class="technicite__content">
+                    <div class="technicite__text" data-scroll>
+                        <span class="section-header__label">Équipements & Systèmes</span>
+                        <h2 class="section-header__title">Technologies de filtration<br>& traitement premium</h2>
+                        <p>Chaque piscine Éclat de Jardin intègre un système de filtration dimensionné précisément selon volume du bassin, fréquentation, ensoleillement et niveau d'exigence. Nous privilégions les équipements de marques européennes reconnues (Hayward, Pentair, Zodiac) garantissant performance, fiabilité et durabilité.</p>
+                    </div>
+
+                    <div class="technicite__grid">
+                        <div class="technicite__item" data-scroll>
+                            <div class="technicite__item-icon">F1</div>
+                            <h3>Filtration à sable haute performance</h3>
+                            <p>Filtres à sable avec média filtrant AFM (verre recyclé activé) offrant finesse de filtration jusqu'à 30 microns, durée de vie 10 ans, résistance au biofilm. Vannes multivoies 6 positions, manomètres de contrôle pression, programmation cycles lavage automatique.</p>
+                        </div>
+
+                        <div class="technicite__item" data-scroll>
+                            <div class="technicite__item-icon">F2</div>
+                            <h3>Filtration à diatomées</h3>
+                            <p>Système de filtration premium offrant la finesse maximale (jusqu'à 5 microns) pour une eau cristalline. Utilisation de terre de diatomées fossile naturelle, régénération par contre-lavage, cartouches filtrantes longue durée. Idéal bassins haut de gamme ou allergies.</p>
+                        </div>
+
+                        <div class="technicite__item" data-scroll>
+                            <div class="technicite__item-icon">P1</div>
+                            <h3>Pompes à vitesse variable</h3>
+                            <p>Pompes de filtration à vitesse variable inverter permettant adaptation automatique du débit selon besoins réels. Économies énergétiques jusqu'à 70%, fonctionnement silencieux, programmation horaire, communication domotique. Garantie constructeur 3 ans.</p>
+                        </div>
+
+                        <div class="technicite__item" data-scroll>
+                            <div class="technicite__item-icon">T1</div>
+                            <h3>Traitement UV-C stérilisation</h3>
+                            <p>Lampes UV-C haute intensité (254 nanomètres) détruisant virus, bactéries, algues et micro-organismes par altération ADN. Réduction jusqu'à 80% de la consommation de chlore. Installation en by-pass sur circuit filtration. Durée de vie lampe 12 000h.</p>
+                        </div>
+
+                        <div class="technicite__item" data-scroll>
+                            <div class="technicite__item-icon">T2</div>
+                            <h3>Électrolyse au sel automatique</h3>
+                            <p>Système d'électrolyse transformant le sel dissous (4g/L) en chlore actif par électrolyse. Production automatique adaptée à température et fréquentation. Inversion polarité auto-nettoyante, cellule titane-ruthénium garantie 5 ans, régulation pH intégrée possible.</p>
+                        </div>
+
+                        <div class="technicite__item" data-scroll>
+                            <div class="technicite__item-icon">C1</div>
+                            <h3>Chauffage pompe à chaleur inverter</h3>
+                            <p>Pompes à chaleur air/eau technologie full inverter COP jusqu'à 16 (coefficient de performance). Chauffage eau bassin + option réversible refroidissement été. Compresseur rotatif silencieux, échangeur titane, dégivrage automatique, pilotage WiFi intégré.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content glass" data-scroll>
+                    <h2>Concrétisons votre projet piscine</h2>
+                    <p>Rencontrons-nous pour une visite technique gratuite sur site. Étude de faisabilité, relevé topographique, conception 3D et chiffrage détaillé personnalisé sous 10 jours.</p>
+                    <a href="contact.html" class="btn btn--primary btn--large">Demander une visite technique</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <img src="assets/logo.svg" alt="ÉCLAT DE JARDIN" class="footer__logo">
+                    <p class="footer__text">Architectes de votre univers extérieur. Piscines premium, aménagements d'exception et containers sur mesure à Strasbourg.</p>
+                </div>
+
+                <div class="footer__col">
+                    <h4>Navigation</h4>
+                    <nav class="footer__nav">
+                        <a href="index.html">Accueil</a>
+                        <a href="piscines.html">Piscines</a>
+                        <a href="amenagements.html">Aménagements Extérieurs</a>
+                        <a href="containers.html">Containers Architecturaux</a>
+                        <a href="realisations.html">Réalisations</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </div>
+
+                <div class="footer__col">
+                    <h4>Nos expertises</h4>
+                    <nav class="footer__nav">
+                        <a href="piscines.html#coque">Piscines coque</a>
+                        <a href="piscines.html#maconnee">Piscines maçonnées</a>
+                        <a href="piscines.html#container">Piscines containers</a>
+                        <a href="amenagements.html#terrasses">Terrasses premium</a>
+                        <a href="containers.html#poolhouse">Pool houses</a>
+                    </nav>
+                </div>
+
+                <div class="footer__col">
+                    <h4>Contact</h4>
+                    <div class="footer__contact">
+                        <p><strong>ÉCLAT DE JARDIN</strong></p>
+                        <p>1 Rue Kellermann<br>67300 Schiltigheim</p>
+                        <p><a href="tel:+33652211072">06 52 21 10 72</a></p>
+                        <p><a href="mailto:contact@eclatdejardin.fr">contact@eclatdejardin.fr</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 Éclat de Jardin. Tous droits réservés.</p>
+                <p>Mentions légales · Politique de confidentialité · CGV</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="chatbot">
+        <button class="chatbot__button glass" id="chatbot-button" aria-label="Ouvrir le chatbot">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <div class="chatbot__panel glass" id="chatbot-panel">
+            <div class="chatbot__header">
+                <h3>Assistant Éclat de Jardin</h3>
+                <button class="chatbot__close" id="chatbot-close">&times;</button>
+            </div>
+            <div class="chatbot__messages" id="chatbot-messages">
+                <div class="chatbot__message chatbot__message--bot">
+                    <p>Bonjour et bienvenue chez Éclat de Jardin. Je suis votre assistante virtuelle et je suis à votre disposition pour répondre à toutes vos questions concernant nos piscines, aménagements extérieurs et containers architecturaux. Comment puis-je vous accompagner aujourd'hui ?</p>
+                </div>
+            </div>
+            <form class="chatbot__form" id="chatbot-form">
+                <input type="text" class="chatbot__input" id="chatbot-input" placeholder="Posez votre question..." autocomplete="off">
+                <button type="submit" class="chatbot__submit" aria-label="Envoyer">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M19 1L9 11M19 1l-6 18-4-8-8-4 18-6z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
