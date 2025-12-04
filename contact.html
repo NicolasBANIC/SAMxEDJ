@@ -264,10 +264,60 @@
                 border-radius: 0;
                 box-shadow: none;
             }
+            /* Réduire le padding interne pour éviter le débordement */
+            .contact-form {
+                padding: 1.5rem;
+                max-width: 100%;
+                min-width: 0;
+                box-sizing: border-box;
+            }
+            .info-card {
+                padding: 1.5rem;
+                max-width: 100%;
+                box-sizing: border-box;
+            }
+            .contact-grid {
+                width: 100%;
+                max-width: 100%;
+                overflow: hidden;
+            }
+            .contact-grid > * {
+                min-width: 0;
+                max-width: 100%;
+            }
+            .contact-info {
+                width: 100%;
+                max-width: 100%;
+                min-width: 0;
+            }
+            /* Harmonisation du footer uniquement sur la page contact */
+            body.contact-page .footer .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            /* Harmonisation du contenu héros pour alignement cohérent */
+            body.contact-page .page-hero__content {
+                max-width: 100%;
+                padding-left: 1.25rem;
+                padding-right: 1.25rem;
+            }
+            /* Forcer tous les containers en full-width sur la page contact */
+            body.contact-page .container {
+                max-width: 100% !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+            /* Correction finale du débordement sur la Google Map */
+            .map-section {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 0 !important;
+                box-sizing: border-box;
+            }
         }
     </style>
 </head>
-<body>
+<body class="contact-page">
     <header class="header" id="header">
         <div class="header__container">
             <a href="index.html" class="header__logo">
