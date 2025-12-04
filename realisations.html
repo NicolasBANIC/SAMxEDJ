@@ -6,15 +6,15 @@
     <title>Nos Réalisations Premium — Projets Piscines & Aménagements | ÉCLAT DE JARDIN</title>
     <meta name="description" content="Découvrez nos réalisations de piscines premium, aménagements extérieurs et containers architecturaux à Strasbourg et dans tout le Bas-Rhin.">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal-realisations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .page-hero{position:relative;height:60vh;min-height:500px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--color-anthracite) 0%,var(--color-secondary-light) 100%);overflow:hidden}
-        .page-hero::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:url('assets/hero-realisations.png') center/cover;opacity:.2}
+        .page-hero{position:relative;height:60vh;min-height:500px;display:flex;align-items:center;justify-content:center;background:url('assets/hero-realisations.png') center/cover;overflow:hidden}
         .page-hero__content{position:relative;z-index:2;text-align:center;max-width:900px;padding:0 2rem}
-        .page-hero__title{font-family:var(--font-title);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;color:#fff;margin-bottom:1.5rem}
-        .page-hero__text{font-size:1.25rem;color:rgba(255,255,255,.9);line-height:1.7}
+        .page-hero__title{font-family:var(--font-title);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;color:#fff;margin-bottom:1.5rem;text-shadow:0 2px 8px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3)}
+        .page-hero__text{font-size:1.25rem;color:rgba(255,255,255,.9);line-height:1.7;text-shadow:0 1px 4px rgba(0,0,0,.4),0 2px 8px rgba(0,0,0,.3)}
         .filters{padding:3rem 0;background:var(--color-bg);position:sticky;top:88px;z-index:100;border-bottom:1px solid rgba(0,0,0,.08)}
         .filters__container{display:flex;justify-content:center;flex-wrap:wrap;gap:1rem}
         .filter-btn{padding:.75rem 1.5rem;background:transparent;border:1px solid rgba(0,0,0,.15);border-radius:2px;font-family:var(--font-body);font-size:.9375rem;font-weight:500;color:var(--color-text);cursor:pointer;transition:var(--transition-fast)}
@@ -83,137 +83,6 @@
         <section class="gallery">
             <div class="container">
                 <div class="gallery-grid" id="gallery-grid">
-                    <div class="gallery-item" data-category="piscine" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800&q=80" alt="Piscine débordement Strasbourg">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Piscine maçonnée</span>
-                            <h3 class="gallery-item__title">Bassin débordement panoramique</h3>
-                            <p class="gallery-item__location">Strasbourg (67) — 12x5m, béton armé, margelles granit</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="amenagement" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80" alt="Terrasse composite Schiltigheim">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Terrasse premium</span>
-                            <h3 class="gallery-item__title">Terrasse composite haute densité</h3>
-                            <p class="gallery-item__location">Schiltigheim (67) — 85m², lames coextrudées, éclairage LED</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="container" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80" alt="Pool house container Haguenau">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Container pool house</span>
-                            <h3 class="gallery-item__title">Pool house container 20'</h3>
-                            <p class="gallery-item__location">Haguenau (67) — Container maritime, bardage mélèze, baies vitrées</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="piscine" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1584622781867-3aee0ec1c2c3?w=800&q=80" alt="Piscine coque Obernai">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Piscine coque</span>
-                            <h3 class="gallery-item__title">Piscine coque polyester 8x4</h3>
-                            <p class="gallery-item__location">Obernai (67) — Coque garantie 10 ans, plages travertin</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="amenagement" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?w=800&q=80" alt="Dallage pierre Sélestat">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Dallage pierre</span>
-                            <h3 class="gallery-item__title">Allée opus romain granit</h3>
-                            <p class="gallery-item__location">Sélestat (67) — Granit breton, joints sable polymère</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="piscine" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80" alt="Piscine container Colmar">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Piscine container</span>
-                            <h3 class="gallery-item__title">Bassin container 40' avec fenêtres</h3>
-                            <p class="gallery-item__location">Colmar (68) — Container 12m, hublots latéraux, chauffage</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="amenagement" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=800&q=80" alt="Escalier pierre Saverne">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Escalier extérieur</span>
-                            <h3 class="gallery-item__title">Escalier monumental calcaire</h3>
-                            <p class="gallery-item__location">Saverne (67) — 18 marches, garde-corps inox, éclairage LED</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="container" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800&q=80" alt="Bureau container Molsheim">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Bureau container</span>
-                            <h3 class="gallery-item__title">Bureau de jardin 30m²</h3>
-                            <p class="gallery-item__location">Molsheim (67) — Container 40', clim réversible, fibre optique</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="piscine" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1519974719382-af1e8c0ca29c?w=800&q=80" alt="Couloir nage Strasbourg">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Piscine sur mesure</span>
-                            <h3 class="gallery-item__title">Couloir de nage 15x3m</h3>
-                            <p class="gallery-item__location">Strasbourg (67) — Béton armé, liner noir, nage contre-courant</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="amenagement" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Enrochement Mulhouse">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Enrochement</span>
-                            <h3 class="gallery-item__title">Soutènement enrochement grès</h3>
-                            <p class="gallery-item__location">Mulhouse (68) — Grès des Vosges, 45m linéaires, plantations</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="container" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1600585152915-d208bec867a1?w=800&q=80" alt="Atelier container">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Atelier container</span>
-                            <h3 class="gallery-item__title">Atelier d'artiste 25m²</h3>
-                            <p class="gallery-item__location">Strasbourg (67) — Grandes baies vitrées, électricité triphasé</p>
-                        </div>
-                    </div>
-
-                    <div class="gallery-item" data-category="amenagement" data-scroll>
-                        <div class="gallery-item__image">
-                            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Clôture design">
-                        </div>
-                        <div class="gallery-item__overlay">
-                            <span class="gallery-item__category">Clôture premium</span>
-                            <h3 class="gallery-item__title">Clôture aluminium claire-voie</h3>
-                            <p class="gallery-item__location">Haguenau (67) — Alu thermolaqué anthracite, portail motorisé</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -304,34 +173,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const galleryItems = document.querySelectorAll('.gallery-item');
-        
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                const filter = btn.dataset.filter;
-                
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                
-                galleryItems.forEach(item => {
-                    if (filter === 'all' || item.dataset.category === filter) {
-                        item.style.display = 'block';
-                        setTimeout(() => {
-                            item.style.opacity = '1';
-                            item.style.transform = 'translateY(0)';
-                        }, 10);
-                    } else {
-                        item.style.opacity = '0';
-                        item.style.transform = 'translateY(20px)';
-                        setTimeout(() => {
-                            item.style.display = 'none';
-                        }, 300);
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="js/realisations-data.js"></script>
+    <script src="js/realisations.js"></script>
 </body>
 </html>

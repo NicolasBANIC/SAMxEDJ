@@ -1,0 +1,10 @@
+
+> eclat-de-jardin@1.0.0 dev
+> npx live-server --port=3000 --host=localhost --no-browser
+
+[33mhttp://localhost:3000 is already in use. Trying another port.[39m
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\dev-server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server-video-test.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mReady for changes[39m
+[32mServing "C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ" at http://localhost:60658 (http://::1:60658)[39m

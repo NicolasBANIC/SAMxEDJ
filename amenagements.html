@@ -10,11 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .page-hero{position:relative;height:60vh;min-height:500px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#2A2A2A 0%,var(--color-secondary) 100%);overflow:hidden}
-        .page-hero::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:url('assets/hero-amenagements.png') center/cover;opacity:.2}
+        .page-hero{position:relative;height:60vh;min-height:500px;display:flex;align-items:center;justify-content:center;background:url('assets/hero-amenagements.png') center/cover;overflow:hidden}
         .page-hero__content{position:relative;z-index:2;text-align:center;max-width:900px;padding:0 2rem}
-        .page-hero__title{font-family:var(--font-title);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;color:#fff;margin-bottom:1.5rem}
-        .page-hero__text{font-size:1.25rem;color:rgba(255,255,255,.9);line-height:1.7}
+        .page-hero__title{font-family:var(--font-title);font-size:clamp(2.5rem,6vw,4.5rem);font-weight:300;color:#fff;margin-bottom:1.5rem;text-shadow:0 2px 8px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3)}
+        .page-hero__text{font-size:1.25rem;color:rgba(255,255,255,.9);line-height:1.7;text-shadow:0 1px 4px rgba(0,0,0,.4),0 2px 8px rgba(0,0,0,.3)}
         .amenagement-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:3rem;padding:6rem 0}
         .amenagement-card{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.08);transition:var(--transition)}
         .amenagement-card:hover{transform:translateY(-8px);box-shadow:0 16px 48px rgba(0,0,0,.12)}

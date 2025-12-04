@@ -2,362 +2,739 @@
 > eclat-de-jardin@1.0.0 dev
 > npx live-server --port=3000 --host=localhost --no-browser
 
-[32mServing "C:\Users\Banic\Documents\SAMxEDJ" at http://localhost:3000 (http://::1:3000)[39m
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\server.log
+[33mhttp://localhost:3000 is already in use. Trying another port.[39m
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
 [36mReady for changes[39m
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\server.log
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\E2E-TESTING-CONTEXT.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\navigation.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-f2924-ld-navigate-to-Contact-page
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-f2924-ld-navigate-to-Contact-page\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\navigation.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-f2924-ld-navigate-to-Contact-page
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-f2924-ld-navigate-to-Contact-page\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[0mGET /favicon.ico [33m404[0m 2.622 ms - 150[0m
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\visual-stability.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\chatbot.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\form-validation.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\responsive.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\gallery.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\performance.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\accessibility.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-35a86-rough-header-links-with-Tab
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-35a86-rough-header-links-with-Tab\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-30583-it-button-should-be-visible
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-30583-it-button-should-be-visible\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-cd558-→-Filter-Piscines-→-Contact
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-cd558-→-Filter-Piscines-→-Contact\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-f76ca-ve-layout-shifts-after-load
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-f76ca-ve-layout-shifts-after-load\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-2c9d4-ould-be-visible-immediately
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-2c9d4-ould-be-visible-immediately\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-37fac-h-9-Gallery-filter-workflow
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-37fac-h-9-Gallery-filter-workflow\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-06f92-tions-should-work-on-mobile
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-06f92-tions-should-work-on-mobile\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-0e126--13-Footer-navigation-links
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-0e126--13-Footer-navigation-links\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\form-validation.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\visual-stability.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\visual-stability.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\performance.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\performance.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\gallery.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\chatbot.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\accessibility.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-35a86-rough-header-links-with-Tab
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-0e126--13-Footer-navigation-links
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-37fac-h-9-Gallery-filter-workflow
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-30583-it-button-should-be-visible
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-cd558-→-Filter-Piscines-→-Contact
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-2c9d4-ould-be-visible-immediately
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-f76ca-ve-layout-shifts-after-load
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-06f92-tions-should-work-on-mobile
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-06f92-tions-should-work-on-mobile\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-35a86-rough-header-links-with-Tab\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-0e126--13-Footer-navigation-links\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-37fac-h-9-Gallery-filter-workflow\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-30583-it-button-should-be-visible\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-cd558-→-Filter-Piscines-→-Contact\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-2c9d4-ould-be-visible-immediately\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-f76ca-ve-layout-shifts-after-load\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\visual-stability.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\animations.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\chatbot.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\critical-paths.spec.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-018cd-uld-work-on-mobile-viewport\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-60133--should-animate-after-title\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-918e1-d-persist-across-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-ebf30--CTA-buttons-should-animate\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-ae7f8--all-main-pages-in-sequence\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-4a9ff-ull-opacity-after-animation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-390cd--when-scrolling-back-to-top
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-390cd--when-scrolling-back-to-top\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-36b42-d-be-associated-with-inputs
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-36b42-d-be-associated-with-inputs\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5cd3d-e-Menu-→-Navigation-→-Close
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5cd3d-e-Menu-→-Navigation-→-Close\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-4a280-ld-respond-to-piscine-query
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-4a280-ld-respond-to-piscine-query\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-2740f-ry-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-2740f-ry-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-5777e-t-active-page-in-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-5777e-t-active-page-in-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-4ff9b-images-should-have-alt-text
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-4ff9b-images-should-have-alt-text\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-6d56a-should-have-overlay-content
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-6d56a-should-have-overlay-content\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-acb3c-s-Card-Click-→-Service-Page
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-acb3c-s-Card-Click-→-Service-Page\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-c6624-rix-piscine-with-price-info
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-befd2-plugin-should-be-registered
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-befd2-plugin-should-be-registered\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-c6624-rix-piscine-with-price-info\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---Mo-da260-ay-hamburger-menu-on-mobile
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---Mo-da260-ay-hamburger-menu-on-mobile\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-e16de-be-visually-distinguishable
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-e16de-be-visually-distinguishable\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-3dcd8-ng-label-should-focus-input
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-3dcd8-ng-label-should-focus-input\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3b6a8-ll-should-animate-on-scroll
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3b6a8-ll-should-animate-on-scroll\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\index.html
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\server.log
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\hero-visibility-bug.spec.ts
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3b6a8-ll-should-animate-on-scroll
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-e16de-be-visually-distinguishable
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-c6624-rix-piscine-with-price-info
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-4a280-ld-respond-to-piscine-query
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5cd3d-e-Menu-→-Navigation-→-Close
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-3dcd8-ng-label-should-focus-input
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-acb3c-s-Card-Click-→-Service-Page
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-6d56a-should-have-overlay-content
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---Mo-da260-ay-hamburger-menu-on-mobile
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-36b42-d-be-associated-with-inputs
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-5777e-t-active-page-in-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-2740f-ry-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-390cd--when-scrolling-back-to-top
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-befd2-plugin-should-be-registered
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-4ff9b-images-should-have-alt-text
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-4ff9b-images-should-have-alt-text\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3b6a8-ll-should-animate-on-scroll\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\accessibility-Accessibilit-e16de-be-visually-distinguishable\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-3f79a-animate-from-opacity-0-to-1\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-c6624-rix-piscine-with-price-info\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-4a280-ld-respond-to-piscine-query\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5cd3d-e-Menu-→-Navigation-→-Close\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-3dcd8-ng-label-should-focus-input\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-acb3c-s-Card-Click-→-Service-Page\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\gallery-Gallery---Réalisat-6d56a-should-have-overlay-content\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---Mo-da260-ay-hamburger-menu-on-mobile\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\form-validation-Contact-Fo-36b42-d-be-associated-with-inputs\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-5777e-t-active-page-in-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-2740f-ry-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\navigation-Navigation---De-390cd--when-scrolling-back-to-top\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-befd2-plugin-should-be-registered\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-02abc-immediately-after-page-load
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-02abc-immediately-after-page-load\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-0a0ee-n-visible-after-page-reload
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-0a0ee-n-visible-after-page-reload\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\hero-visibility-bug.spec.ts
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-0a0ee-n-visible-after-page-reload
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-02abc-immediately-after-page-load
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-0a0ee-n-visible-after-page-reload\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-02abc-immediately-after-page-load\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-8d41c-A-button-flow-from-homepage
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-8d41c-A-button-flow-from-homepage\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance----f8195-ld-load-gallery-efficiently
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance----f8195-ld-load-gallery-efficiently\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-786d2-page-form-should-be-visible
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-786d2-page-form-should-be-visible\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-948ac--behavior-during-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-948ac--behavior-during-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\js\main.js
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\scroll-reveal-performance.spec.ts
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-8d41c-A-button-flow-from-homepage
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-786d2-page-form-should-be-visible
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-948ac--behavior-during-navigation
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance----f8195-ld-load-gallery-efficiently
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\chatbot-Chatbot-Functional-8228f--when-clicking-close-button\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-e739a-lete-within-reasonable-time\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-8d41c-A-button-flow-from-homepage\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\visual-stability-Visual-St-786d2-page-form-should-be-visible\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-948ac--behavior-during-navigation\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\performance-Performance----f8195-ld-load-gallery-efficiently\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\scroll-reveal-performance--c934d-d-have-no-perceptible-delay
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\scroll-reveal-performance--c934d-d-have-no-perceptible-delay\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\e2e\scroll-reveal-performance.spec.ts
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\scroll-reveal-performance--c934d-d-have-no-perceptible-delay
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\scroll-reveal-performance--c934d-d-have-no-perceptible-delay\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\test-results\critical-paths-Critical-Us-5f99d-tbot-prix-piscine-→-Contact\error-context.md
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\assets\logo.svg
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\assets\logo.svg
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\server.log
-[36mChange detected[39m C:\Users\Banic\Documents\SAMxEDJ\server.log
+[32mServing "C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ" at http://localhost:55407 (http://::1:55407)[39m
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\header-burger-white-bar-fix.spec.ts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-8d865-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-8d865-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-af9dd-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-af9dd-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7d92-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7d92-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-471a4-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-471a4-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-93d23-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-93d23-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-ca7fb-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-ca7fb-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-2365e-smorphism-and-shadow-intact
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-2365e-smorphism-and-shadow-intact\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-add59----Shadow-quality-on-mobile
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-add59----Shadow-quality-on-mobile\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\header-burger-white-bar-fix.spec.ts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\header-burger-white-bar-fix.spec.ts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\header-burger-white-bar-fix.spec.ts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\header-burger-white-bar-fix.spec.ts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-2365e-smorphism-and-shadow-intact
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-471a4-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-93d23-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-8d865-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7d92-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-add59----Shadow-quality-on-mobile
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-af9dd-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-ca7fb-ite-border-bottom-on-header
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-2365e-smorphism-and-shadow-intact\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-471a4-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-93d23-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-8d865-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7d92-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-add59----Shadow-quality-on-mobile\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-af9dd-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-ca7fb-ite-border-bottom-on-header\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\header-burger-white-bar-fix.spec.ts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-c7504-le-without-visual-artifacts\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-757b9-onality-preserved-after-fix
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-757b9-onality-preserved-after-fix\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-98900-bile-menu-has-subtle-border
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-98900-bile-menu-has-subtle-border\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-c1fc0-be-visible-within-2-seconds
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-c1fc0-be-visible-within-2-seconds\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-16aae-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-16aae-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---De-1aadf-navigate-to-Containers-page
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---De-1aadf-navigate-to-Containers-page\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---Mo-5921e--menu-when-clicking-outside
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---Mo-5921e--menu-when-clicking-outside\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-a5b53-king-outside-menu-closes-it
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-a5b53-king-outside-menu-closes-it\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\header-responsive-redesign.spec.ts
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\terrasse-premium.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\escaliers-exterieurs.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\gazon-plantations.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\clotures-design.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\enrochements-paysagers.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\pavages-dallages.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\piscines.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\piscines.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\piscine-coque.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\piscine-maconnee.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\piscine-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\piscine-sur-mesure.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\piscine-sur-mesure2.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\piscine-sur-mesure.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\piscine-sur-mesure.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\containers.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\containers.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\poolhouse-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\bureau-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\atelier-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\stockage-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\studio-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\stockage-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\stockage-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\studio-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\studio-container.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\piscines.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\containers.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\realisations.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-containers.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-piscines.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-amenagements.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-realisations.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\contact.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\herocontact.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-contact.png.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\herocontact.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-contact.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-contact.png.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\piscines.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\containers.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\realisations.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\contact.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\piscines.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\amenagements.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\containers.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\realisations.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\contact.html
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-overlay-removal.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-overlay-removal.js
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-header-outline.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-header-outline.js
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\style.css
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\pavages-dallages2.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\pavages-dallages.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\pavages-dallages.png
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\dev-server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\dev-server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.19_2d9038ed.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.19_3e7420e1.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.19_fc7483b2.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_23aadc2f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_271ab69d.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_524158f7.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_56b0b0db.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_651c19b9.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_77f806a6.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_97725ab8.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_bd5b2dca.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_c5ff17d3.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_d5c63859.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_dc1858e4.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_edaa138f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur geispolsheim\WhatsApp Image 2025-11-26 à 00.22.20_de12a7d8.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Lingolsheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Lingolsheim\WhatsApp Image 2025-11-24 à 00.01.58_0cf9da2b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Lingolsheim\WhatsApp Image 2025-11-24 à 00.01.58_1b3f2911.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Lingolsheim\WhatsApp Image 2025-11-24 à 00.01.58_2283655f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Lingolsheim\WhatsApp Image 2025-11-24 à 00.01.58_c996006e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Lingolsheim\WhatsApp Image 2025-11-24 à 00.01.58_dbcad4da.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Lingolsheim\WhatsApp Image 2025-11-24 à 00.01.58_ddf10f22.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.20_3fabf102.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.20_817dd706.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.20_8c6a3481.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.20_bb9bb2d3.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.20_ef34ded5.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.21_6c6bf442.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.21_f15dec78.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Noheuf\WhatsApp Image 2025-11-26 à 01.19.21_f50ef725.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Strasbourg Robertseau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Strasbourg Robertseau\WhatsApp Image 2025-11-25 à 23.55.03_24a33692.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Strasbourg Robertseau\WhatsApp Image 2025-11-25 à 23.55.03_2d3b14fa.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Strasbourg Robertseau\WhatsApp Image 2025-11-25 à 23.55.03_4d5d2a5e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Strasbourg Robertseau\WhatsApp Image 2025-11-25 à 23.55.03_ad218f93.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Strasbourg Robertseau\WhatsApp Vidéo 2025-11-25 à 23.55.10_52bb5f06.mp4
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.23_01a0dd6f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.23_2afce198.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.23_a5672d7b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.23_82527d1d.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.23_a825e9c9.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.23_c8a9815a.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.23_fcd873f1.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.24_01cb35c7.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.24_2038e14b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création  enrobé Dahluden
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier aménagement extérieur Metz\WhatsApp Image 2025-11-26 à 01.28.24_5b279546.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création  enrobé Dahluden\WhatsApp Image 2025-11-26 à 00.13.40_197fd9d9.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création  enrobé Dahluden\WhatsApp Image 2025-11-26 à 00.13.40_c594c689.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création  enrobé Dahluden\WhatsApp Image 2025-11-26 à 00.13.40_32c82026.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création  enrobé Dahluden\WhatsApp Image 2025-11-26 à 00.13.40_f158f67a.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création aller dalle ardoise
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création aller dalle ardoise\WhatsApp Image 2025-11-26 à 01.25.54_482c97f3.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création aller dalle ardoise\WhatsApp Image 2025-11-26 à 01.25.54_53cfe3ae.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création aller dalle ardoise\WhatsApp Image 2025-11-26 à 01.25.54_837a915a.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création aller dalle ardoise\WhatsApp Image 2025-11-26 à 01.25.54_edc662fb.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création aller dalle ardoise\WhatsApp Image 2025-11-26 à 01.25.55_7409a942.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création aller dalle ardoise\WhatsApp Image 2025-11-26 à 01.25.55_8be28f1f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création bac à fleur  jardin Eschau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création bac à fleur  jardin Eschau\WhatsApp Image 2025-11-26 à 01.29.28_8aa1fd9c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création bac à fleur  jardin Eschau\WhatsApp Image 2025-11-26 à 01.29.29_6db2a7d4.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création bac à fleur  jardin Eschau\WhatsApp Image 2025-11-26 à 01.29.29_8fa2d3f7.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création bac à fleur  jardin Eschau\WhatsApp Image 2025-11-26 à 01.29.29_ad5e6d7e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création béton boîte au lettre Eckbolsheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création béton boîte au lettre Eckbolsheim\WhatsApp Image 2025-11-26 à 00.26.25_2484b8f2.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création béton boîte au lettre Eckbolsheim\WhatsApp Image 2025-11-26 à 00.26.25_a0ac9010.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création crépi donnenheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création béton boîte au lettre Eckbolsheim\WhatsApp Image 2025-11-26 à 00.26.25_ab933e07.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création crépi donnenheim\WhatsApp Image 2025-11-26 à 01.37.29_1c4d5bf6.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création crépi donnenheim\WhatsApp Image 2025-11-26 à 01.37.30_87fa4201.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création crépi donnenheim\WhatsApp Image 2025-11-26 à 01.37.30_92fe189d.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier Création crépi donnenheim\WhatsApp Vidéo 2025-11-26 à 01.37.30_f9fa295f.mp4
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.02_f2e206a8.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.03_1279eb99.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.03_136a33c1.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.03_16e92c90.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.03_8c5d0963.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.03_97bd38dd.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.03_d4abd66c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur -Couvertine -Crepi à Obernai\WhatsApp Image 2025-11-26 à 00.03.03_f5c1ee36.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur Achenheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur Achenheim\WhatsApp Image 2025-11-26 à 01.14.39_02fe6641.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur Achenheim\WhatsApp Image 2025-11-26 à 01.14.39_27b49ae1.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur Achenheim\WhatsApp Image 2025-11-26 à 01.14.39_63edfc1c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur Achenheim\WhatsApp Image 2025-11-26 à 01.14.39_aba9f1ba.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur Achenheim\WhatsApp Vidéo 2025-11-26 à 01.14.39_bc05a1f3.mp4
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim\WhatsApp Image 2025-11-26 à 01.35.26_0820de25.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim\WhatsApp Image 2025-11-26 à 01.35.26_49816e45.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim\WhatsApp Image 2025-11-26 à 01.35.26_6dac28fb.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim\WhatsApp Image 2025-11-26 à 01.35.26_76774561.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim\WhatsApp Image 2025-11-26 à 01.35.26_c014ed41.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim\WhatsApp Image 2025-11-26 à 01.35.26_d2c7f2fe.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier création mur et crépi wittersheim\WhatsApp Image 2025-11-26 à 01.35.26_d3c06b9b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier crépi eckwersheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier crépi eckwersheim\WhatsApp Image 2025-11-26 à 01.23.35_03b57d78.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier crépi eckwersheim\WhatsApp Image 2025-11-26 à 01.23.35_57adac9b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier crépi eckwersheim\WhatsApp Image 2025-11-26 à 01.23.35_61708d3b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier crépi eckwersheim\WhatsApp Image 2025-11-26 à 01.23.35_69f27165.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier crépi eckwersheim\WhatsApp Image 2025-11-26 à 01.23.35_e1bd5654.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier dalle béton molsheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier dalle béton molsheim\WhatsApp Image 2025-11-26 à 00.04.15_e0d4b40f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier dalle béton molsheim\WhatsApp Image 2025-11-26 à 00.06.04_627e9a16.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier dalle béton molsheim\WhatsApp Image 2025-11-26 à 00.06.04_c10c2e52.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier dalle béton molsheim\WhatsApp Image 2025-11-26 à 00.06.04_d76a274e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier escaliers granite Illkirch
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier dalle béton molsheim\WhatsApp Image 2025-11-26 à 00.06.05_8c6e93ba.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier escaliers granite Illkirch\WhatsApp Image 2025-11-26 à 01.33.19_1702f6b5.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier escaliers granite Illkirch\WhatsApp Image 2025-11-26 à 01.33.19_2f99c3d9.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier escaliers granite Illkirch\WhatsApp Image 2025-11-26 à 01.33.19_56c647f3.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier escaliers granite Illkirch\WhatsApp Image 2025-11-26 à 01.33.19_be69fdf4.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier escaliers granite Illkirch\WhatsApp Image 2025-11-26 à 01.33.19_f7324da7.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.18.15_447a07f4.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.19.20_39567ed7.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.19.20_8fc363f2.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.19.20_85aba131.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.19.20_deefa490.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.19.20_a1ed753b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.19.21_4493c2e1.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier macadam enrobé Hagneau\WhatsApp Image 2025-11-26 à 01.19.21_fa292b37.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim\WhatsApp Image 2025-11-26 à 00.58.29_043bf653.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim\WhatsApp Image 2025-11-26 à 01.00.46_8e0e9f22.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim\WhatsApp Image 2025-11-26 à 01.00.47_04f86783.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim\WhatsApp Image 2025-11-26 à 01.00.47_1ac83476.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim\WhatsApp Image 2025-11-26 à 01.00.47_1b891837.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim\WhatsApp Image 2025-11-26 à 01.00.47_548b9332.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier mur palissades granite Schiltigheim\WhatsApp Image 2025-11-26 à 01.00.47_defbef83.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Achenheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Achenheim\WhatsApp Image 2025-11-26 à 00.57.20_199d6ed8.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Achenheim\WhatsApp Image 2025-11-26 à 00.57.20_59c71195.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Achenheim\WhatsApp Image 2025-11-26 à 00.57.20_5f27c3c5.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Achenheim\WhatsApp Image 2025-11-26 à 00.57.20_ac8e2cec.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Achenheim\WhatsApp Image 2025-11-26 à 00.57.20_d27bff21.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Achenheim\WhatsApp Vidéo 2025-11-26 à 00.57.20_924b8fb8.mp4
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim\WhatsApp Image 2025-11-26 à 00.28.11_7629d114.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim\WhatsApp Image 2025-11-26 à 00.29.57_0366d2e8.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim\WhatsApp Image 2025-11-26 à 00.29.57_4c6f11f9.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim\WhatsApp Image 2025-11-26 à 00.29.57_5b235f48.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim\WhatsApp Image 2025-11-26 à 00.29.57_90d8b967.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim\WhatsApp Image 2025-11-26 à 00.29.57_929e7df6.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Herlisaheim\WhatsApp Image 2025-11-26 à 00.29.57_edab3f5c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage ittenheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage ittenheim\WhatsApp Image 2025-11-23 à 23.53.57_5e999d36.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage ittenheim\WhatsApp Image 2025-11-23 à 23.53.57_8772f628.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage ittenheim\WhatsApp Image 2025-11-23 à 23.53.57_d78cbe15.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage ittenheim\WhatsApp Image 2025-11-23 à 23.53.57_9f7045a0.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Neudorf
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Neudorf\WhatsApp Image 2025-11-26 à 00.24.48_1106ae86.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Neudorf\WhatsApp Image 2025-11-26 à 00.24.48_3510c503.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Neudorf\WhatsApp Image 2025-11-26 à 00.24.48_356feb61.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Neudorf\WhatsApp Image 2025-11-26 à 00.24.48_3b6126c4.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Neudorf\WhatsApp Image 2025-11-26 à 00.24.48_507bec0c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Neudorf\WhatsApp Image 2025-11-26 à 00.24.48_63f43db8.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Schiltigheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 00.29.57_5a2906f4.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 00.31.26_2c4a5c90.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 00.31.26_d4a69add.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pergola Altorf
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pergola Altorf\WhatsApp Image 2025-11-25 à 23.58.30_693d598d.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pergola Altorf\WhatsApp Image 2025-11-25 à 23.55.10_41a45551.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pergola Altorf\WhatsApp Image 2025-11-25 à 23.58.30_7b0ed57f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pergola Altorf\WhatsApp Image 2025-11-25 à 23.58.30_9199ba2c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier pergola Altorf\WhatsApp Image 2025-11-25 à 23.58.30_b5dc60ac.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.13_9a73b29e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.14_24743940.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.14_39836da9.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.14_6a84ca71.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.14_74fff46c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.14_7d68854a.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.14_947b58d0.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Gamsheim\WhatsApp Image 2025-11-23 à 23.51.14_9e3f7853.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre\WhatsApp Image 2025-11-26 à 00.18.30_4915680f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre\WhatsApp Image 2025-11-26 à 00.18.30_5815fc7b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre\WhatsApp Image 2025-11-26 à 00.18.30_744d28cd.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre\WhatsApp Image 2025-11-26 à 00.18.30_87d2f907.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre\WhatsApp Image 2025-11-26 à 00.18.30_92e238cd.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre\WhatsApp Image 2025-11-26 à 00.18.30_9df43f47.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier piscine Strasbourg centre\WhatsApp Image 2025-11-26 à 00.18.30_a3d2cf0a.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim\WhatsApp Image 2025-11-26 à 00.10.56_0abba976.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim\WhatsApp Image 2025-11-26 à 00.10.56_0e607f33.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim\WhatsApp Image 2025-11-26 à 00.10.56_5541b31c.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim\WhatsApp Image 2025-11-26 à 00.10.56_8efa0f16.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim\WhatsApp Image 2025-11-26 à 00.10.56_a93b04cb.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim\WhatsApp Image 2025-11-26 à 00.10.56_c6925a5d.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse bois exotique Gamsheim\WhatsApp Image 2025-11-26 à 00.10.56_cdded626.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.24_13211590.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.24_9138a81b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.24_ccb6ce33.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.24_e16daf93.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.25_3cdfb37e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.25_45c468fe.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.25_4b6ef9b1.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.26_056476d8.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Image 2025-11-26 à 01.12.26_d66875fb.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Chantier terrasse grès cérame Eschau\WhatsApp Vidéo 2025-11-26 à 01.12.26_167c3040.mp4
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Création escalier coffrage mittelsofelsheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Création escalier coffrage mittelsofelsheim\WhatsApp Image 2025-11-26 à 01.39.07_7644f34e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Création escalier coffrage mittelsofelsheim\WhatsApp Image 2025-11-26 à 01.39.07_e33bc25f.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Gantier pavage Schiltigheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Gantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 01.07.00_e4eade2e.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Gantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 01.07.01_0f53a0d2.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Gantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 01.07.01_6b4c7456.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Gantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 01.07.01_86c7ddc9.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Gantier pavage Schiltigheim\WhatsApp Image 2025-11-26 à 01.07.01_e568e8ce.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Habituer création  rampe en béton  Achenheim
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Habituer création  rampe en béton  Achenheim\WhatsApp Image 2025-11-26 à 01.03.35_121c9f80.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Habituer création  rampe en béton  Achenheim\WhatsApp Image 2025-11-26 à 01.03.35_1b925ce7.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Habituer création  rampe en béton  Achenheim\WhatsApp Image 2025-11-26 à 01.03.35_8a020508.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Habituer création  rampe en béton  Achenheim\WhatsApp Image 2025-11-26 à 01.03.35_991bfec4.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\medias-realisations\Habituer création  rampe en béton  Achenheim\WhatsApp Image 2025-11-26 à 01.03.35_9b38048b.jpg
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations-data.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations.js
+[35mCSS change detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\css\modal-realisations.css
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\realisations.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\realisations.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\realisations.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-757b9-onality-preserved-after-fix
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-16aae-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-98900-bile-menu-has-subtle-border
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-a5b53-king-outside-menu-closes-it
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---De-1aadf-navigate-to-Containers-page
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-c1fc0-be-visible-within-2-seconds
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---Mo-5921e--menu-when-clicking-outside
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-757b9-onality-preserved-after-fix\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-16aae-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-98900-bile-menu-has-subtle-border\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-a5b53-king-outside-menu-closes-it\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---De-1aadf-navigate-to-Containers-page\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-c1fc0-be-visible-within-2-seconds\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\navigation-Navigation---Mo-5921e--menu-when-clicking-outside\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-58864-nwanted-border-on-nav-panel
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-58864-nwanted-border-on-nav-panel\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-7fe1b-hen-anthracite-after-scroll
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-7fe1b-hen-anthracite-after-scroll\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-58864-nwanted-border-on-nav-panel
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-7fe1b-hen-anthracite-after-scroll
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\critical-paths-Critical-Us-fe0a7-multi-question-conversation\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-07ca7-ll-indicator-should-fade-in\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-58864-nwanted-border-on-nav-panel\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-7fe1b-hen-anthracite-after-scroll\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\animations-GSAP-Animations-1f251-tions-should-not-cause-jank\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-72ab7-e-en-cliquant-sur-l-overlay
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-72ab7-e-en-cliquant-sur-l-overlay\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-72ab7-e-en-cliquant-sur-l-overlay
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-efd87-tions-réelles-33-chantiers-\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-Page-Réalisat-72ab7-e-en-cliquant-sur-l-overlay\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-215dd-nwanted-border-on-nav-panel
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-215dd-nwanted-border-on-nav-panel\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3889c-on-mobile-and-change-colors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3889c-on-mobile-and-change-colors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-e7e32-transforms-to-X-when-active
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-e7e32-transforms-to-X-when-active\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-8f131-24px---No-horizontal-scroll
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-8f131-24px---No-horizontal-scroll\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-215dd-nwanted-border-on-nav-panel
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3889c-on-mobile-and-change-colors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-e7e32-transforms-to-X-when-active
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-8f131-24px---No-horizontal-scroll
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-215dd-nwanted-border-on-nav-panel\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3889c-on-mobile-and-change-colors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-8f131-24px---No-horizontal-scroll\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-124e5-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-5e4fc--always-golden-on-all-pages\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-e7e32-transforms-to-X-when-active\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3b78a-should-not-have-line-breaks
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3b78a-should-not-have-line-breaks\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-fb861--shadow-intact-after-scroll
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-fb861--shadow-intact-after-scroll\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-e5231-ull-opacity-after-animation
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-e5231-ull-opacity-after-animation\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-fb861--shadow-intact-after-scroll
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3b78a-should-not-have-line-breaks
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-e5231-ull-opacity-after-animation
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-9b123-d-show-only-container-items\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\accessibility-Accessibilit-88d75-s-should-have-readable-text\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\gallery-Gallery---Réalisat-584db--should-load-without-errors\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\chatbot-Chatbot-Functional-12996-clear-after-sending-message\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-burger-white-bar-fi-fb861--shadow-intact-after-scroll\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-responsive-redesign-31295-r-changes-with-scroll-state\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-colors-premium-Head-3b78a-should-not-have-line-breaks\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-3f860-s-visible-and-not-truncated\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-49b4f-ld-maintain-proper-layering\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-video-background-Hero-4438c-ent-for-content-readability\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\hero-visibility-bug-Hero-S-e5231-ull-opacity-after-animation\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\header-full-responsive-Hea-815fd-essively-before-burger-mode\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\responsive-Responsive---Ta-07f73-d-be-appropriate-for-tablet\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\performance-Performance-Me-63af8-et-should-load-successfully\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations-visibility.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-d7b59-es-dans-le-viewport-initial
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-d7b59-es-dans-le-viewport-initial\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-c43c2--de-l-écran-horizontalement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-c43c2--de-l-écran-horizontalement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-a3d67-rectement-pas-d-erreur-404-
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-a3d67-rectement-pas-d-erreur-404-\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations-visibility.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations-visibility.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations-visibility.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-d7b59-es-dans-le-viewport-initial
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-c43c2--de-l-écran-horizontalement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-a3d67-rectement-pas-d-erreur-404-
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-c43c2--de-l-écran-horizontalement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-d7b59-es-dans-le-viewport-initial\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-a3d67-rectement-pas-d-erreur-404-\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-80c40--de-l-écran-horizontalement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-80c40--de-l-écran-horizontalement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-abc8c-oivent-charger-correctement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-abc8c-oivent-charger-correctement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-abc8c-oivent-charger-correctement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-80c40--de-l-écran-horizontalement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-abc8c-oivent-charger-correctement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-visibility-Ré-80c40--de-l-écran-horizontalement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-images.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-images-encoded.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations-images-fix.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-106f6-ent-se-charger-correctement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-106f6-ent-se-charger-correctement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-9c243--afficher-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-9c243--afficher-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-feaa4-ent-se-charger-correctement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-feaa4-ent-se-charger-correctement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d9aa8--afficher-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d9aa8--afficher-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-4ac52-t-charger-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-4ac52-t-charger-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d4200-t-charger-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d4200-t-charger-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\check-images.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations-data.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations-data.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\fix-folder-names.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\js\realisations-data.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-9c243--afficher-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-106f6-ent-se-charger-correctement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d9aa8--afficher-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d4200-t-charger-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-feaa4-ent-se-charger-correctement
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-4ac52-t-charger-toutes-les-images
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-9c243--afficher-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-106f6-ent-se-charger-correctement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d9aa8--afficher-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-d4200-t-charger-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-feaa4-ent-se-charger-correctement\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-4ac52-t-charger-toutes-les-images\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\e2e\realisations-images-fix.spec.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results\realisations-images-fix-Ré-df37b-es-images-de-Metz-et-Eschau\error-context.md
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-results
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-images.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\test-images-encoded.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\check-images.js
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\assets\hero-accueil-video.webm
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\index.html
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server-video-test.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\dev-server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server-video-test.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\server-video-test.log
+[36mChange detected[39m C:\Users\Banic\Documents\FINALxSAMxEDJ\SAMxEDJ\dev-server.log
