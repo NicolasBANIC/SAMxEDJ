@@ -240,19 +240,29 @@
         }
         
         @media (max-width: 968px) {
+            /* Le container de la section contact doit être full-width sur mobile */
+            .contact-section .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
             .contact-grid {
                 grid-template-columns: 1fr;
                 gap: 3rem;
             }
-            
             .form-grid {
                 grid-template-columns: 1fr;
             }
-            
             .map-overlay {
                 position: static;
                 max-width: none;
                 margin-bottom: 2rem;
+            }
+            /* Les cartes se fondent avec la largeur de l'écran pour un rendu aligné */
+            .contact-form,
+            .info-card,
+            .map-section {
+                border-radius: 0;
+                box-shadow: none;
             }
         }
     </style>
