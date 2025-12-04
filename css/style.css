@@ -816,6 +816,9 @@ a {
     visibility: hidden;
     transform: translateY(20px);
     transition: var(--transition);
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
 .chatbot__panel.active {
@@ -836,7 +839,7 @@ a {
     font-family: var(--font-title);
     font-size: 1.25rem;
     font-weight: 500;
-    color: var(--color-anthracite);
+    color: #B3883E;
 }
 
 .chatbot__close {

@@ -101,7 +101,7 @@ function initParallax() {
                 end: 'bottom top',
                 scrub: 1
             },
-            y: '15%',
+            y: '3.5%',
             ease: 'none'
         });
     });
