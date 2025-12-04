@@ -35,6 +35,19 @@
         .gallery-item__title{font-family:var(--font-title);font-size:1.5rem;font-weight:500;color:#fff;margin-bottom:.5rem}
         .gallery-item__location{font-size:.9375rem;color:rgba(255,255,255,.8)}
         @media(max-width:968px){.gallery-grid{grid-template-columns:1fr;gap:1.5rem}.gallery-item:nth-child(3n+1){grid-row:span 1}.gallery-item__image,.gallery-item:nth-child(3n+1) .gallery-item__image{padding-bottom:75%}}
+        @media (max-width: 600px) {
+            .filters {
+                padding: 1.5rem 0;
+            }
+            .filters__container {
+                gap: 0.5rem;
+            }
+            .filter-btn {
+                padding: 0.4rem 0.9rem;
+                font-size: 0.8rem;
+                border-radius: 6px;
+            }
+        }
     </style>
 </head>
 <body>

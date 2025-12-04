@@ -136,13 +136,51 @@ function initChatbot() {
     
     if (!chatbotButton || !chatbotPanel) return;
     
-    chatbotButton.addEventListener('click', () => {
+    function openChatbot() {
         chatbotPanel.classList.add('active');
-        chatbotInput.focus();
-    });
-    
-    chatbotClose.addEventListener('click', () => {
+        chatbotButton.setAttribute('aria-expanded', 'true');
+        if (chatbotInput) {
+            chatbotInput.focus();
+        }
+    }
+
+    function closeChatbot() {
         chatbotPanel.classList.remove('active');
+        chatbotButton.setAttribute('aria-expanded', 'false');
+    }
+
+    // Bouton flottant : toggle ouvert/fermé
+    chatbotButton.addEventListener('click', () => {
+        const isActive = chatbotPanel.classList.contains('active');
+        if (isActive) {
+            closeChatbot();
+        } else {
+            openChatbot();
+        }
+    });
+
+    // Bouton de fermeture dans le header du chatbot
+    if (chatbotClose) {
+        chatbotClose.addEventListener('click', () => {
+            closeChatbot();
+        });
+    }
+
+    // Clic à l'extérieur : fermeture
+    document.addEventListener('click', (event) => {
+        if (!chatbotPanel.classList.contains('active')) return;
+        const clickInsidePanel = chatbotPanel.contains(event.target);
+        const clickOnButton = chatbotButton.contains(event.target);
+        if (!clickInsidePanel && !clickOnButton) {
+            closeChatbot();
+        }
+    });
+
+    // Touche Échap : fermeture
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && chatbotPanel.classList.contains('active')) {
+            closeChatbot();
+        }
     });
     
     chatbotForm.addEventListener('submit', (e) => {
