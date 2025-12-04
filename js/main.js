@@ -169,81 +169,132 @@ function initChatbot() {
     }
     
     function generateResponse(message) {
-        const msg = message.toLowerCase();
-        
-        if (msg.includes('piscine') || msg.includes('bassin')) {
-            if (msg.includes('prix') || msg.includes('coût') || msg.includes('tarif')) {
-                return "Le budget d'une piscine varie considérablement selon la typologie choisie. Pour une piscine coque polyester, comptez entre 25 000€ et 45 000€ tout compris. Une piscine maçonnée béton armé se situe entre 35 000€ et 70 000€ selon dimensions et finitions. Les piscines containers démarrent à 30 000€. Je vous invite à demander une étude personnalisée gratuite pour obtenir un chiffrage précis adapté à votre projet.";
-            }
-            if (msg.includes('container')) {
-                return "Nos piscines containers sont réalisées à partir de containers maritimes 20 ou 40 pieds transformés en bassins étanches. La structure acier est découpée, renforcée et traitée anti-corrosion. L'intérieur reçoit un traitement époxy alimentaire puis un revêtement liner armé. Nous intégrons filtration, chauffage et éclairage LED. Livraison par convoi exceptionnel et installation sur dalle béton préparée. Délai moyen : 8 à 12 semaines.";
-            }
-            if (msg.includes('coque')) {
-                return "Les piscines coques polyester que nous installons sont fabriquées en France par nos partenaires certifiés. Garantie 10 ans structure. Nous réalisons l'excavation, le terrassement, la pose sur lit de sable stabilisé, le raccordement hydraulique complet, le local technique avec filtration et la finition des abords. Avantages : rapidité d'installation (3 à 4 semaines), étanchéité garantie, surface lisse facilitant l'entretien.";
-            }
-            if (msg.includes('maçonnée') || msg.includes('béton')) {
-                return "La piscine maçonnée en béton armé offre une liberté totale de forme et dimensions. Nous réalisons le ferraillage sur plan ingénieur, le coffrage bois ou alu, le coulage béton C25/30 vibré, l'application d'un enduit hydraulique multicouche, puis la pose du revêtement final (liner armé, membrane PVC ou carrelage émaux). Construction noble, pérenne, adaptée aux terrains complexes et projets architecturaux exigeants.";
-            }
-            if (msg.includes('filtration')) {
-                return "Nous proposons plusieurs systèmes de filtration premium : filtration à sable avec média filtrant haute performance (finesse 30 microns), filtration à diatomées (finesse 5 microns, eau cristalline), ou filtration à cartouche polyester. Pompes à vitesse variable pour optimisation énergétique. Options : traitement UV, électrolyse au sel, régulation pH/chlore automatique, chauffage par pompe à chaleur inverter.";
-            }
-            return "Nous concevons trois typologies de piscines : coques polyester (installation rapide, garantie 10 ans), piscines maçonnées béton armé (liberté de forme, pérennité maximale) et piscines containers (design contemporain, rapidité). Chaque projet inclut l'étude de sol, le terrassement, la structure, la filtration premium, le local technique et les finitions. Quelle typologie vous intéresse ?";
+        const raw = (message || '').trim();
+        if (!raw) {
+            return "Je n'ai pas bien compris votre message. Pouvez-vous reformuler en quelques mots votre projet ou votre question ?";
         }
-        
-        if (msg.includes('aménagement') || msg.includes('terrasse') || msg.includes('extérieur')) {
-            if (msg.includes('terrasse')) {
-                return "Nos terrasses premium se déclinent en plusieurs matériaux : bois exotiques (ipé, cumaru, teck), composites haute qualité (résistance UV, sans échardes), pierre naturelle (travertin, granit, grès cérame 20mm). Nous réalisons l'étude de nivellement, la structure porteuse (lambourdes alu ou bois classe 4), le drainage, la pose avec joints calibrés et la finition invisible ou apparente selon esthétique souhaitée.";
+
+        function normalize(str) {
+            return str
+                .toLowerCase()
+                .replace(/[.,;:!?()"'`´]/g, " ")
+                .replace(/[àáâãäå]/g, "a")
+                .replace(/[ç]/g, "c")
+                .replace(/[èéêë]/g, "e")
+                .replace(/[ìíîï]/g, "i")
+                .replace(/[òóôõö]/g, "o")
+                .replace(/[ùúûü]/g, "u")
+                .replace(/[ÿ]/g, "y")
+                .replace(/\s+/g, " ")
+                .trim();
+        }
+
+        const msg = normalize(raw);
+
+        function includesAny(keywords) {
+            return keywords.some(kw => msg.includes(kw));
+        }
+
+        const isPiscine = includesAny(["piscine", "bassin"]);
+        const isAmenagement = includesAny(["amenagement", "terrasse", "exterieur", "exterieure", "exterieurs"]);
+        const isContainer = includesAny(["container", "conteneur"]);
+
+        const asksPrice = includesAny(["prix", "tarif", "cout", "budget"]);
+        const asksDelay = includesAny(["delai", "delais", "duree", "combien de temps"]);
+        const asksZone = includesAny(["zone", "secteur", "region", "ou intervenez", "intervention", "strasbourg", "bas rhin", "grand est"]);
+        const asksGuarantee = includesAny(["garantie", "garanties", "assurance", "decennale"]);
+        const asksProcess = includesAny(["etapes", "deroulement", "comment ca se passe", "processus", "accompagnement"]);
+        const asksCompany = includesAny(["qui etes", "qui êtes", "eclat de jardin", "entreprise", "societe", "showroom"]);
+        const asksContact = includesAny(["contact", "rappel", "rappelez", "rappeler", "rdv", "rendez vous", "visite", "devis", "estimation", "etude"]);
+
+        if (includesAny(["bonjour", "bonsoir", "salut", "hello", "coucou"])) {
+            return "Bonjour, je suis l'assistant Éclat de Jardin. Je peux vous renseigner sur nos piscines, aménagements extérieurs, containers architecturaux, délais, budget, garanties ou zone d'intervention. Souhaitez-vous parler plutôt d'une piscine, d'un aménagement extérieur ou d'un container architectural ?";
+        }
+
+        if (includesAny(["merci", "merci beaucoup", "thanks"])) {
+            return "Avec plaisir, c'est un plaisir de vous accompagner. Si vous le souhaitez, nous pouvons aller plus loin avec une étude personnalisée de votre projet via le formulaire de contact ou par téléphone.";
+        }
+
+        if (asksContact) {
+            return "Pour aller plus loin, nous vous proposons un échange personnalisé : vous pouvez nous appeler directement au numéro indiqué sur le site ou remplir le formulaire de contact en précisant votre type de projet (piscine, aménagement extérieur, container) et quelques informations sur le terrain, le budget envisagé et le délai souhaité. Nous revenons ensuite vers vous pour affiner le projet et, si besoin, organiser une visite sur place.";
+        }
+
+        if (asksDelay) {
+            return "Les délais dépendent du type de projet et de la période : une fois l'étude validée, une piscine coque ou container peut être réalisée en quelques semaines, tandis qu'une piscine maçonnée ou un aménagement extérieur complet nécessite plusieurs mois, en fonction du terrassement, du génie civil et des finitions. Lors de l'étude personnalisée, nous vous remettons un planning prévisionnel détaillé et réaliste.";
+        }
+
+        if (asksZone) {
+            return "Nous sommes basés près de Strasbourg et intervenons principalement dans le Bas-Rhin et le Grand Est : Eurométropole de Strasbourg, Bas-Rhin, une partie du Haut-Rhin, de la Moselle et des Vosges pour des projets d'envergure. Pour les projets plus lointains, nous étudions les demandes au cas par cas en fonction de la nature du chantier.";
+        }
+
+        if (asksGuarantee) {
+            return "Nos réalisations sont couvertes par les garanties et assurances obligatoires pour ce type de travaux : garantie décennale sur les ouvrages concernés (génie civil, structure, étanchéité) et assurance responsabilité civile professionnelle. Nous travaillons avec des fournisseurs et marques reconnues pour la fiabilité des équipements (filtration, traitement, chauffage, couvertures, etc.). Les détails sont précisés lors de l'étude et du devis.";
+        }
+
+        if (asksProcess) {
+            return "Un projet Éclat de Jardin se déroule en plusieurs grandes étapes :\n\n1) Échange et visite sur site pour comprendre votre mode de vie, vos contraintes et le contexte (maison, terrain, accès).\n2) Étude et conception : plans, dimensionnement technique, choix des matériaux et équipements, intégration paysagère.\n3) Terrassement et VRD : préparation du terrain, gestion des réseaux, évacuations, plateforme.\n4) Génie civil et structure : radier, voiles béton, murs de soutènement si nécessaires.\n5) Hydraulique et équipements : filtration, traitement de l'eau, chauffage, couvertures ou volets.\n6) Revêtements et finitions : liner armé ou membrane PVC, margelles, plages, terrasses et aménagements paysagers.\n\nNous vous accompagnons de la conception à la livraison, avec un interlocuteur dédié.";
+        }
+
+        if (asksCompany) {
+            return "Éclat de Jardin est une entreprise basée à Schiltigheim (près de Strasbourg), spécialisée depuis plus de 15 ans dans la conception et la réalisation de piscines premium, d'aménagements extérieurs et de containers architecturaux. Nous combinons technicité (terrassement, génie civil, hydraulique, revêtements) et vision architecturale pour créer des projets sur mesure. Nous vous recevons sur rendez-vous pour étudier votre projet en détail.";
+        }
+
+        if (isPiscine) {
+            if (asksPrice) {
+                return "Le budget d'une piscine dépend de nombreux paramètres : typologie (coque polyester, piscine maçonnée en béton, piscine container ou bassin entièrement sur mesure), dimensions, niveau de finition, équipements (filtration, traitement automatique, chauffage, couverture, fonds mobiles, etc.) et contraintes de votre terrain. Nous travaillons sur des projets sur mesure, généralement à partir de plusieurs dizaines de milliers d'euros selon la complexité. Le plus simple est de réaliser une étude personnalisée : un échange téléphonique ou une visite nous permet de définir un budget précis adapté à votre projet.";
             }
-            if (msg.includes('escalier')) {
-                return "Nous créons des escaliers extérieurs sur mesure en pierre massive (granit, calcaire), béton architectonique brut ou ciré, ou structure métallique avec marches bois. Étude d'ergonomie (giron, hauteur), calcul de structure, fondations adaptées au terrain, main courante inox brossé ou garde-corps verre. Intégration d'éclairage LED dans contremarches ou mains courantes possible.";
+            if (includesAny(["container"])) {
+                return "Nos piscines containers combinent une structure métallique renforcée, une préparation complète en atelier (étanchéité, isolation, équipements de filtration) et une installation sur dalle béton préparée. Elles sont particulièrement adaptées aux terrains contraints ou aux projets contemporains. Nous proposons des finitions premium et des équipements haut de gamme. Une étude de site est nécessaire pour valider l'implantation, l'accès et le budget global.";
             }
-            if (msg.includes('clôture')) {
-                return "Notre gamme de clôtures haut de gamme comprend : panneaux bois claire-voie (red cedar, mélèze), lames composites coextrudées (garantie 25 ans), claustra aluminium thermolaqué (RAL au choix), gabions pierre naturelle, ou clôture végétale sur structure acier. Toutes nos clôtures respectent le PLU et intègrent portails motorisés sur demande.";
+            if (includesAny(["coque"])) {
+                return "Les piscines coques polyester que nous installons sont issues de fabricants reconnus, avec des formes modernes et une structure renforcée. Elles permettent un chantier plus rapide qu'une piscine maçonnée, tout en offrant un confort d'usage élevé. Nous intégrons l'ensemble : terrassement, dalle ou radier, raccordements, filtration, margelles et finitions paysagères autour du bassin.";
             }
-            if (msg.includes('enrochement')) {
-                return "L'enrochement paysager combine fonction structurelle (soutènement, stabilisation de talus) et esthétique minérale. Nous utilisons des blocs de pierre locale (grès des Vosges, calcaire, granit) de 200 à 800 kg. Étude géotechnique préalable, terrassement en gradins, pose mécanique, drainage arrière, intégration de plantes rupestres. Particulièrement adapté aux terrains en pente.";
+            if (includesAny(["maconnee", "beton"])) {
+                return "La piscine maçonnée en béton armé est la solution la plus flexible pour un projet sur mesure : forme, dimensions, profondeur, intégration à la maison ou au paysage, débordement, plage immergée, etc. Nous gérons le gros œuvre (radier, voiles, structure), l'étanchéité (liner armé, membrane PVC, carrelage selon le projet), l'hydraulique, ainsi que les plages et aménagements extérieurs. C'est la solution privilégiée pour les projets architecturaux exigeants.";
             }
-            return "Nos aménagements extérieurs englobent : terrasses bois nobles ou composite, dallages pierre naturelle, pavages authentiques, escaliers structurants, enrochements décoratifs, clôtures design, drainage professionnel, plantations architecturées et éclairage paysager LED. Chaque projet est conçu sur mesure en fonction de votre terrain et de votre vision. Quel type d'aménagement envisagez-vous ?";
-        }
-        
-        if (msg.includes('container') && !msg.includes('piscine')) {
-            if (msg.includes('pool house')) {
-                return "Le pool house container est notre réalisation phare : container 20 pieds (6m) ou 40 pieds (12m), découpe de larges baies vitrées aluminium, isolation thermique 120mm laine de roche, bardage bois (mélèze, douglas) ou composite, électricité complète, chauffage réversible, sol carrelage grand format. Aménagement intérieur : douche, WC, rangement matériel piscine, coin détente. Livraison clé en main. Délai : 10 semaines.";
+            if (includesAny(["filtration", "traitement", "pompe", "hydraulique"])) {
+                return "Nous dimensionnons et installons des systèmes de filtration haut de gamme : pompes à vitesse variable, filtres à sable ou à verre, traitement automatique (électrolyseur au sel, régulation pH et désinfection), chauffage par pompe à chaleur, couvertures automatiques ou volets immergés. L'objectif est d'obtenir une eau claire, saine et facile à entretenir, avec une installation durable et silencieuse.";
             }
-            if (msg.includes('bureau') || msg.includes('atelier')) {
-                return "Nos containers bureaux/ateliers sont transformés en véritables espaces de travail : isolation thermique et acoustique renforcée, menuiseries aluminium double vitrage, électricité tertiaire (prises data, éclairage LED), revêtement sol stratifié ou béton ciré, climatisation réversible, accès PMR possible. Configurations de 15m² à 60m² par assemblage modulaire. Installation sur plots béton réglables.";
+
+            return "Nous concevons et réalisons trois grandes typologies de piscines : coques polyester, bassins maçonnés en béton armé et piscines containers, ainsi que des projets entièrement sur mesure (bords à débordement, plages immergées, bassins architecturaux). Nous intégrons la partie technique (génie civil, hydraulique, étanchéité, revêtements) et l'aménagement des abords. Dites-moi : vous envisagez plutôt une piscine coque, une piscine maçonnée ou une piscine container ?";
+        }
+
+        if (isAmenagement) {
+            if (includesAny(["terrasse", "deck"])) {
+                return "Nous créons des terrasses premium en bois exotique, bois composite ou pierre naturelle, avec une attention particulière portée aux détails : structure porteuse adaptée, gestion des eaux pluviales, finitions soignées (nez de marche, joints, intégration avec les seuils de la maison). Nous pouvons intégrer l'éclairage, les jardinières, les escaliers et les éléments de mobilier extérieur.";
             }
-            if (msg.includes('prix') || msg.includes('coût')) {
-                return "Le prix d'un container architectural varie selon niveau d'aménagement : container brut isolé (15 000€ à 22 000€), container semi-aménagé électricité+isolation (25 000€ à 35 000€), container clé en main pool house ou bureau (35 000€ à 55 000€). Ces tarifs incluent la structure, la transformation, le transport et l'installation. Je vous recommande une étude personnalisée pour un chiffrage précis.";
+            if (includesAny(["escalier"])) {
+                return "Nous réalisons des escaliers extérieurs sur mesure : béton habillé de pierre ou carrelage, marches en bois, intégration dans un talus ou un enrochement, sécurisation des circulations. Il est possible d'intégrer un éclairage LED dans les contremarches ou les mains courantes pour un rendu très qualitatif.";
             }
-            return "Nous transformons des containers maritimes en espaces architecturaux contemporains : pool houses (équipés douche, rangements, coin détente), ateliers d'artiste, bureaux de jardin, studios indépendants, espaces de stockage premium. Structure acier, isolation thermique 120mm, menuiseries alu, électricité, bardage au choix. Garantie décennale, RT2012 compatible. Quel usage envisagez-vous ?";
+            if (includesAny(["cloture", "portail", "brise vue", "brisevue"])) {
+                return "Nous proposons des clôtures et brise-vues haut de gamme : aluminium, acier, lames composites, panneaux ajourés, gabions, etc. Nous veillons à la cohérence avec l'architecture de la maison et les réglementations locales (PLU), et pouvons intégrer des portails motorisés et portillons coordonnés.";
+            }
+            if (includesAny(["enrochement", "talus"])) {
+                return "L'enrochement paysager permet de traiter les différences de niveau et les talus en combinant stabilité et esthétique. Nous sélectionnons les blocs, mettons en place les drainages nécessaires et pouvons végétaliser l'ensemble avec des plantations adaptées (plantes rupestres, couvre-sols, arbustes).";
+            }
+
+            return "Nos aménagements extérieurs englobent terrasses, escaliers, murets, enrochements, plantations, éclairage, clôtures et portails. L'objectif est de créer un ensemble cohérent autour de votre maison et de votre piscine, tant sur le plan technique qu'esthétique. Quel type d'aménagement souhaitez-vous prioriser : terrasse, jardin, accès, clôture, enrochement… ?";
         }
-        
-        if (msg.includes('délai') || msg.includes('durée') || msg.includes('combien de temps')) {
-            return "Les délais moyens de réalisation sont : piscine coque (3 à 4 semaines), piscine maçonnée (6 à 10 semaines), piscine container (8 à 12 semaines), terrasse (2 à 4 semaines), aménagement complet (6 à 12 semaines), container architectural (8 à 12 semaines). Ces délais incluent les études préalables, les travaux et les finitions. Planning détaillé fourni lors de l'étude personnalisée.";
+
+        if (isContainer && !isPiscine) {
+            if (includesAny(["pool house", "poolhouse"])) {
+                return "Nos pool houses containers sont pensés comme de véritables extensions d'espace autour de la piscine : rangement du matériel, douche, WC, coin détente, bar, salon extérieur abrité… Le container est entièrement transformé : isolation, menuiseries alu, habillage intérieur, électricité, éclairage, éventuellement chauffage réversible. Nous livrons un ensemble prêt à être raccordé, sur une dalle ou des plots béton.";
+            }
+            if (includesAny(["bureau", "atelier", "studio", "cabinet"])) {
+                return "Nous transformons des containers maritimes en bureaux, ateliers ou studios : isolation performante, menuiseries aluminium, électricité complète, chauffage/climatisation, revêtements de sol et murs soignés. Cela permet de créer un espace de travail ou de création indépendant, contemporain, souvent avec des délais plus courts qu'une construction traditionnelle.";
+            }
+            if (asksPrice) {
+                return "Le budget d'un container architectural dépend de l'usage (pool house, bureau, atelier, studio invité), des niveaux de finition (extérieur et intérieur), du niveau d'isolation, des équipements (sanitaires, cuisine, chauffage, climatisation) et des contraintes de préparation de la plateforme (dalle, plots, accès grue). Une étude personnalisée est nécessaire pour définir un budget fidèle à votre projet.";
+            }
+
+            return "Nous transformons des containers maritimes en espaces architecturaux contemporains : pool houses, bureaux, ateliers, studios. Chaque projet est étudié sur mesure : isolation, menuiseries, aménagement intérieur, intégration paysagère. Quel type de container avez-vous en tête : pool house, bureau, atelier ou autre ?";
         }
-        
-        if (msg.includes('zone') || msg.includes('secteur') || msg.includes('où') || msg.includes('région')) {
-            return "Éclat de Jardin intervient sur l'ensemble du Bas-Rhin (67) et départements limitrophes : Haut-Rhin (68), Moselle (57), Vosges (88), secteur de Sarrebourg, Saverne, Haguenau, Sélestat, Colmar, Mulhouse. Notre siège est situé à Schiltigheim, aux portes de Strasbourg. Pour des projets d'envergure, nous étudions les demandes Grand Est et régions limitrophes. N'hésitez pas à nous solliciter.";
+
+        if (isPiscine || isAmenagement || isContainer) {
+            return "J'ai bien compris que votre question concerne " + (isPiscine ? "une piscine" : isAmenagement ? "un aménagement extérieur" : "un container architectural") + ". Pouvez-vous préciser ce qui vous intéresse le plus : budget, délais, type de solution, garanties, ou déroulement du projet ? Je pourrai alors vous répondre de façon plus ciblée.";
         }
-        
-        if (msg.includes('contact') || msg.includes('rdv') || msg.includes('rencontre') || msg.includes('visite')) {
-            return "Pour échanger sur votre projet, plusieurs options : appelez-nous au 06 52 21 10 72 (disponibilité 9h-18h du lundi au vendredi), envoyez-nous un email via le formulaire de contact, ou prenez rendez-vous à notre bureau de Schiltigheim (1 Rue Kellermann, 67300). Nous nous déplaçons gratuitement pour une visite technique sur site et une étude personnalisée. Premier échange sans engagement.";
-        }
-        
-        if (msg.includes('garantie') || msg.includes('assurance')) {
-            return "Tous nos chantiers bénéficient d'une couverture complète : garantie décennale tous risques chantiers (structure, étanchéité), garantie biennale (équipements techniques), garantie parfait achèvement (1 an), assurance responsabilité civile professionnelle. Nous travaillons avec des assureurs reconnus (Allianz, AXA). Attestations fournies avant démarrage des travaux. Votre investissement est protégé intégralement.";
-        }
-        
-        if (msg.includes('bonjour') || msg.includes('hello') || msg.includes('salut')) {
-            return "Bonjour et bienvenue ! Je suis ravie de vous accompagner dans votre réflexion. Éclat de Jardin conçoit et réalise des piscines premium, aménagements extérieurs et containers architecturaux à Strasbourg et dans tout le Bas-Rhin. Avez-vous un projet particulier en tête ? Je suis à votre écoute pour répondre à toutes vos questions techniques, tarifaires ou organisationnelles.";
-        }
-        
-        if (msg.includes('merci')) {
-            return "Je vous en prie, c'est avec plaisir. N'hésitez pas si vous avez d'autres questions concernant nos prestations. L'équipe d'Éclat de Jardin reste à votre disposition pour approfondir votre projet et vous accompagner de la conception à la réalisation. À très bientôt !";
-        }
-        
-        return "Je suis à votre disposition pour répondre à vos questions sur nos piscines (coque, maçonnée, container), nos aménagements extérieurs (terrasses, pavages, escaliers, clôtures) et nos containers architecturaux (pool house, atelier, bureau). Vous pouvez également m'interroger sur nos délais, tarifs, zones d'intervention ou garanties. Comment puis-je vous aider précisément ?";
+
+        return "Je suis l'assistant Éclat de Jardin. Je peux vous informer sur nos piscines, aménagements extérieurs, containers architecturaux, nos délais, budgets, garanties, zone d'intervention et notre manière de travailler. N'hésitez pas à me dire en quelques mots si vous souhaitez parler d'une piscine, d'un aménagement extérieur ou d'un container, et si vous avez une question sur le budget, le délai ou la faisabilité.";
     }
 }
 
