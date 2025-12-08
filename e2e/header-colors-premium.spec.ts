@@ -11,7 +11,7 @@ test.describe('Header - Premium Colors & Layout', () => {
     await page.reload({ waitUntil: 'networkidle' });
   });
 
-  test('Logo text "ÉCLAT DE JARDIN" should always be golden', async ({ page }) => {
+  test('Logo text "ÉCLATS DE JARDIN" should always be golden', async ({ page }) => {
     const logoText = page.locator('.header__logo-text');
     
     await expect(logoText).toHaveCSS('color', goldenColor);

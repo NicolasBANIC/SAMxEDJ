@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**SAMxEDJ** is a premium website for **"Éclat de Jardin"**, a company specializing in:
+**SAMxEDJ** is a premium website for **"Éclats de Jardin"**, a company specializing in:
 - Premium swimming pools
 - Outdoor amenities and landscaping
 - Architectural containers
@@ -28,7 +28,7 @@ Establish a premium, consistent color scheme for the header that maintains brand
 ### Color Requirements
 The color hierarchy follows strict brand guidelines:
 
-1. **Logo text "ÉCLAT DE JARDIN"**: Always golden/brass (`var(--color-primary)` = `rgb(179, 136, 62)`)
+1. **Logo text "ÉCLATS DE JARDIN"**: Always golden/brass (`var(--color-primary)` = `rgb(179, 136, 62)`)
 2. **Phone number "06 52 21 10 72"**: Always golden/brass (`var(--color-primary)`)
 3. **Navigation links**: White initially → Anthracite after scroll
 4. **Burger menu bars**: White initially → Anthracite after scroll
@@ -204,8 +204,8 @@ Comprehensive E2E test suite created in `e2e/header-colors-premium.spec.ts`:
     <div class="header__container">
         <!-- Logo (golden, always visible) -->
         <a href="index.html" class="header__logo">
-            <img src="assets/logo.svg" alt="ÉCLAT DE JARDIN" class="header__logo-img">
-            <span class="header__logo-text">ÉCLAT DE JARDIN</span>
+            <img src="assets/logo.svg" alt="ÉCLATS DE JARDIN" class="header__logo-img">
+            <span class="header__logo-text">ÉCLATS DE JARDIN</span>
         </a>
         
         <!-- Navigation (white → anthracite on scroll, hidden on mobile) -->

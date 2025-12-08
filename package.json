@@ -1,7 +1,7 @@
 {
   "name": "eclat-de-jardin",
   "version": "1.0.0",
-  "description": "Site premium pour Éclat de Jardin - Piscines & Aménagements Strasbourg",
+  "description": "Site premium pour Éclats de Jardin - Piscines & Aménagements Strasbourg",
   "scripts": {
     "dev": "npx live-server --port=3000 --host=localhost --no-browser",
     "start": "npx live-server --port=3000 --host=localhost",
@@ -17,7 +17,7 @@
     "containers",
     "strasbourg"
   ],
-  "author": "Éclat de Jardin",
+  "author": "Éclats de Jardin",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.57.0",

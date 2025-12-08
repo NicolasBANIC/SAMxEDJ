@@ -1,4 +1,4 @@
-# Plan de Tests Manuels - Éclat de Jardin
+# Plan de Tests Manuels - Éclats de Jardin
 
 ## Instructions d'exécution
 
@@ -35,7 +35,7 @@
 ## 2. NAVIGATION
 
 ### 2.1 Menu Principal (Desktop)
-- [ ] Logo "ÉCLAT DE JARDIN" visible en haut à gauche
+- [ ] Logo "ÉCLATS DE JARDIN" visible en haut à gauche
 - [ ] 6 liens menu: Accueil, Piscines, Aménagements, Containers, Réalisations, Contact
 - [ ] Clic "Piscines" → navigue vers piscines.html
 - [ ] Clic "Contact" → navigue vers contact.html

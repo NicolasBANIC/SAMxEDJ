@@ -52,7 +52,7 @@ test.describe('Chatbot - Intelligent Responses', () => {
     
     const response = await getLastBotMessage(page);
     expect(response).toContain('Bonjour');
-    expect(response).toContain('assistant Éclat de Jardin');
+    expect(response).toContain('assistant Éclats de Jardin');
     expect(response).toContain('piscines');
     expect(response).toContain('aménagements extérieurs');
     expect(response).toContain('containers architecturaux');
@@ -290,7 +290,7 @@ test.describe('Chatbot - Intelligent Responses', () => {
     await sendMessage(page, 'Qui êtes-vous ?');
     
     const response = await getLastBotMessage(page);
-    expect(response).toContain('Éclat de Jardin');
+    expect(response).toContain('Éclats de Jardin');
     expect(response).toContain('Schiltigheim');
     expect(response).toContain('15 ans');
     expect(response).toContain('technicité');
@@ -329,7 +329,7 @@ test.describe('Chatbot - Intelligent Responses', () => {
     await sendMessage(page, 'xyz abc 123');
     
     const response = await getLastBotMessage(page);
-    expect(response).toContain('assistant Éclat de Jardin');
+    expect(response).toContain('assistant Éclats de Jardin');
     expect(response).toContain('piscines');
     expect(response).toContain('aménagements');
     expect(response).toContain('containers');
@@ -340,7 +340,7 @@ test.describe('Chatbot - Intelligent Responses', () => {
     await sendMessage(page, 'x');
     
     const response = await getLastBotMessage(page);
-    expect(response).toContain('assistant Éclat de Jardin');
+    expect(response).toContain('assistant Éclats de Jardin');
     expect(response).toContain('piscines');
   });
 

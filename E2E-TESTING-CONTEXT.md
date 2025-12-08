@@ -1,8 +1,8 @@
-# CONTEXTE DU PROJET - ÉCLAT DE JARDIN E2E TESTING
+# CONTEXTE DU PROJET - ÉCLATS DE JARDIN E2E TESTING
 
 ## 📋 RÉSUMÉ EXÉCUTIF
 
-**Projet**: Site web premium multi-pages pour ÉCLAT DE JARDIN (entreprise de piscines & aménagements extérieurs à Strasbourg)
+**Projet**: Site web premium multi-pages pour ÉCLATS DE JARDIN (entreprise de piscines & aménagements extérieurs à Strasbourg)
 
 **État actuel**: Site production-ready ✅ | Tests E2E configurés ✅ | Bug Playwright résolu ✅
 
@@ -248,7 +248,7 @@ npm run test:debug      # Mode debug
 ## 📌 SÉLECTEURS CSS IMPORTANTS
 
 ### Navigation
-- `.header__logo` - Logo ÉCLAT DE JARDIN
+- `.header__logo` - Logo ÉCLATS DE JARDIN
 - `.header__nav-link` - Liens menu (6 items)
 - `.header__burger` - Hamburger mobile
 - `.header.scrolled` - Classe ajoutée au scroll

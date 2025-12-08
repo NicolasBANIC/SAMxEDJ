@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initScrollAnimations();
     initParallax();
     initChatbot();
+    initContactForm();
 });
 
 function initHeader() {
@@ -265,11 +266,11 @@ function initChatbot() {
         const asksZone = includesAny(["zone", "secteur", "region", "ou intervenez", "intervention", "strasbourg", "bas rhin", "grand est"]);
         const asksGuarantee = includesAny(["garantie", "garanties", "assurance", "decennale"]);
         const asksProcess = includesAny(["etapes", "deroulement", "comment ca se passe", "processus", "accompagnement"]);
-        const asksCompany = includesAny(["qui etes", "qui êtes", "eclat de jardin", "entreprise", "societe", "showroom"]);
+        const asksCompany = includesAny(["qui etes", "qui êtes", "eclats de jardin", "entreprise", "societe", "showroom"]);
         const asksContact = includesAny(["contact", "rappel", "rappelez", "rappeler", "rdv", "rendez vous", "visite", "devis", "estimation", "etude"]);
 
         if (includesAny(["bonjour", "bonsoir", "salut", "hello", "coucou"])) {
-            return "Bonjour, je suis l'assistant Éclat de Jardin. Je peux vous renseigner sur nos piscines, aménagements extérieurs, containers architecturaux, délais, budget, garanties ou zone d'intervention. Souhaitez-vous parler plutôt d'une piscine, d'un aménagement extérieur ou d'un container architectural ?";
+            return "Bonjour, je suis l'assistant Éclats de Jardin. Je peux vous renseigner sur nos piscines, aménagements extérieurs, containers architecturaux, délais, budget, garanties ou zone d'intervention. Souhaitez-vous parler plutôt d'une piscine, d'un aménagement extérieur ou d'un container architectural ?";
         }
 
         if (includesAny(["merci", "merci beaucoup", "thanks"])) {
@@ -293,11 +294,11 @@ function initChatbot() {
         }
 
         if (asksProcess) {
-            return "Un projet Éclat de Jardin se déroule en plusieurs grandes étapes :\n\n1) Échange et visite sur site pour comprendre votre mode de vie, vos contraintes et le contexte (maison, terrain, accès).\n2) Étude et conception : plans, dimensionnement technique, choix des matériaux et équipements, intégration paysagère.\n3) Terrassement et VRD : préparation du terrain, gestion des réseaux, évacuations, plateforme.\n4) Génie civil et structure : radier, voiles béton, murs de soutènement si nécessaires.\n5) Hydraulique et équipements : filtration, traitement de l'eau, chauffage, couvertures ou volets.\n6) Revêtements et finitions : liner armé ou membrane PVC, margelles, plages, terrasses et aménagements paysagers.\n\nNous vous accompagnons de la conception à la livraison, avec un interlocuteur dédié.";
+            return "Un projet Éclats de Jardin se déroule en plusieurs grandes étapes :\n\n1) Échange et visite sur site pour comprendre votre mode de vie, vos contraintes et le contexte (maison, terrain, accès).\n2) Étude et conception : plans, dimensionnement technique, choix des matériaux et équipements, intégration paysagère.\n3) Terrassement et VRD : préparation du terrain, gestion des réseaux, évacuations, plateforme.\n4) Génie civil et structure : radier, voiles béton, murs de soutènement si nécessaires.\n5) Hydraulique et équipements : filtration, traitement de l'eau, chauffage, couvertures ou volets.\n6) Revêtements et finitions : liner armé ou membrane PVC, margelles, plages, terrasses et aménagements paysagers.\n\nNous vous accompagnons de la conception à la livraison, avec un interlocuteur dédié.";
         }
 
         if (asksCompany) {
-            return "Éclat de Jardin est une entreprise basée à Schiltigheim (près de Strasbourg), spécialisée depuis plus de 15 ans dans la conception et la réalisation de piscines premium, d'aménagements extérieurs et de containers architecturaux. Nous combinons technicité (terrassement, génie civil, hydraulique, revêtements) et vision architecturale pour créer des projets sur mesure. Nous vous recevons sur rendez-vous pour étudier votre projet en détail.";
+            return "Éclats de Jardin est une entreprise basée à Schiltigheim (près de Strasbourg), spécialisée depuis plus de 15 ans dans la conception et la réalisation de piscines premium, d'aménagements extérieurs et de containers architecturaux. Nous combinons technicité (terrassement, génie civil, hydraulique, revêtements) et vision architecturale pour créer des projets sur mesure. Nous vous recevons sur rendez-vous pour étudier votre projet en détail.";
         }
 
         if (isPiscine) {
@@ -355,8 +356,58 @@ function initChatbot() {
             return "J'ai bien compris que votre question concerne " + (isPiscine ? "une piscine" : isAmenagement ? "un aménagement extérieur" : "un container architectural") + ". Pouvez-vous préciser ce qui vous intéresse le plus : budget, délais, type de solution, garanties, ou déroulement du projet ? Je pourrai alors vous répondre de façon plus ciblée.";
         }
 
-        return "Je suis l'assistant Éclat de Jardin. Je peux vous informer sur nos piscines, aménagements extérieurs, containers architecturaux, nos délais, budgets, garanties, zone d'intervention et notre manière de travailler. N'hésitez pas à me dire en quelques mots si vous souhaitez parler d'une piscine, d'un aménagement extérieur ou d'un container, et si vous avez une question sur le budget, le délai ou la faisabilité.";
+        return "Je suis l'assistant Éclats de Jardin. Je peux vous informer sur nos piscines, aménagements extérieurs, containers architecturaux, nos délais, budgets, garanties, zone d'intervention et notre manière de travailler. N'hésitez pas à me dire en quelques mots si vous souhaitez parler d'une piscine, d'un aménagement extérieur ou d'un container, et si vous avez une question sur le budget, le délai ou la faisabilité.";
     }
+}
+
+function initContactForm() {
+    const form = document.getElementById('contact-form');
+    const messagesContainer = document.getElementById('form-messages');
+    
+    if (!form || !messagesContainer) return;
+    
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        messagesContainer.classList.remove('show', 'success', 'error');
+        messagesContainer.textContent = '';
+        
+        const nom = form.querySelector('#nom');
+        const prenom = form.querySelector('#prenom');
+        const email = form.querySelector('#email');
+        const telephone = form.querySelector('#telephone');
+        const adresse = form.querySelector('#adresse');
+        const projet = form.querySelector('#projet');
+        const message = form.querySelector('#message');
+        const rgpdConsent = form.querySelector('#rgpd_consent');
+        
+        const requiredFields = [nom, prenom, email, telephone, adresse, projet, message];
+        let isValid = true;
+        
+        for (const field of requiredFields) {
+            if (!field || !field.value.trim()) {
+                isValid = false;
+                break;
+            }
+        }
+        
+        if (!rgpdConsent || !rgpdConsent.checked) {
+            isValid = false;
+        }
+        
+        if (!isValid) {
+            messagesContainer.textContent = 'Merci de remplir tous les champs obligatoires et d\'accepter la politique de confidentialité.';
+            messagesContainer.classList.add('show', 'error');
+            messagesContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            return;
+        }
+        
+        messagesContainer.textContent = 'Merci, votre demande a bien été envoyée. Nous vous recontacterons dans les meilleurs délais.';
+        messagesContainer.classList.add('show', 'success');
+        messagesContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        
+        form.reset();
+    });
 }
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

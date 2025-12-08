@@ -22,7 +22,7 @@ test.describe('Header - Full Responsive Coverage', () => {
         const logoText = page.locator('.header__logo-text');
         await expect(logo).toBeVisible();
         await expect(logoText).toBeVisible();
-        await expect(logoText).toHaveText('ÉCLAT DE JARDIN');
+        await expect(logoText).toHaveText('ÉCLATS DE JARDIN');
         
         // Determine if we're in mobile mode (burger visible)
         const burger = page.locator('#burger');

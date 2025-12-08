@@ -1,6 +1,6 @@
-# ÉCLAT DE JARDIN — Site Premium
+# ÉCLATS DE JARDIN — Site Premium
 
-Site web ultra-premium pour Éclat de Jardin, spécialiste en piscines, aménagements extérieurs et containers architecturaux à Strasbourg.
+Site web ultra-premium pour Éclats de Jardin, spécialiste en piscines, aménagements extérieurs et containers architecturaux à Strasbourg.
 
 ## Technologie
 
@@ -36,7 +36,7 @@ SAMxEDJ/
 ├── js/
 │   └── main.js             # JavaScript & chatbot
 ├── assets/
-│   └── logo.svg            # Logo Éclat de Jardin
+│   └── logo.svg            # Logo Éclats de Jardin
 └── package.json
 ```
 
@@ -91,12 +91,12 @@ Le chatbot connaît :
 
 ## Contact
 
-**ÉCLAT DE JARDIN**  
+**ÉCLATS DE JARDIN**  
 1 Rue Kellermann  
 67300 Schiltigheim  
 06 52 21 10 72  
-contact@eclatdejardin.fr
+contact@eclatsdejardin.fr
 
 ---
 
-© 2025 Éclat de Jardin. Tous droits réservés.
+© 2025 Éclats de Jardin. Tous droits réservés.
