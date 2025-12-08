@@ -10,14 +10,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initHeader() {
     const header = document.getElementById('header');
-    
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 100) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
+    if (!header) return;
+    // On cherche la section héros : home (.hero) ou pages internes (.page-hero)
+    const heroSection = document.querySelector('.hero, .page-hero');
+    // Si pas de héros, on garde le comportement actuel en fallback
+    if (!heroSection || !('IntersectionObserver' in window)) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        return;
+    }
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    // Tant que la section héros est visible → liens blancs
+                    header.classList.remove('scrolled');
+                } else {
+                    // Dès qu'on sort de la section héros → liens anthracite
+                    header.classList.add('scrolled');
+                }
+            });
+        },
+        {
+            threshold: 0.3
         }
-    });
+    );
+    observer.observe(heroSection);
 }
 
 function initMobileMenu() {

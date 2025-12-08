@@ -38,7 +38,11 @@ test.describe('Header - Premium Colors & Layout', () => {
     
     await expect(navLinks).toHaveCSS('color', whiteColor);
     
-    await page.evaluate(() => window.scrollTo(0, 500));
+    const hero = page.locator('.hero');
+    const heroBox = await hero.boundingBox();
+    const scrollAmount = heroBox ? heroBox.height + 100 : 500;
+    
+    await page.evaluate((amount) => window.scrollTo(0, amount), scrollAmount);
     await page.waitForTimeout(400);
     
     await expect(navLinks).toHaveCSS('color', anthraciteColor);
@@ -207,7 +211,11 @@ test.describe('Header - Premium Colors & Layout', () => {
     let hasScrolledClass = await header.evaluate(el => el.classList.contains('scrolled'));
     expect(hasScrolledClass).toBe(false);
     
-    await page.evaluate(() => window.scrollTo(0, 500));
+    const hero = page.locator('.hero');
+    const heroBox = await hero.boundingBox();
+    const scrollAmount = heroBox ? heroBox.height + 100 : 500;
+    
+    await page.evaluate((amount) => window.scrollTo(0, amount), scrollAmount);
     await page.waitForTimeout(500);
     
     hasScrolledClass = await header.evaluate(el => el.classList.contains('scrolled'));

@@ -13,7 +13,11 @@ test.describe('Header Burger Mode - White Bar Fix', () => {
         await page.goto(BASE_URL);
         await page.setViewportSize({ width, height: 800 });
         
-        await page.evaluate(() => window.scrollTo(0, 150));
+        const hero = page.locator('.hero');
+        const heroBox = await hero.boundingBox();
+        const scrollAmount = heroBox ? heroBox.height + 100 : 150;
+        
+        await page.evaluate((amount) => window.scrollTo(0, amount), scrollAmount);
         await page.waitForTimeout(500);
         
         const header = page.locator('.header');
@@ -141,7 +145,11 @@ test.describe('Header Burger Mode - White Bar Fix', () => {
       await page.goto(BASE_URL);
       await page.setViewportSize({ width: 768, height: 800 });
       
-      await page.evaluate(() => window.scrollTo(0, 150));
+      const hero = page.locator('.hero');
+      const heroBox = await hero.boundingBox();
+      const scrollAmount = heroBox ? heroBox.height + 100 : 150;
+      
+      await page.evaluate((amount) => window.scrollTo(0, amount), scrollAmount);
       await page.waitForTimeout(500);
       
       const header = page.locator('.header');
@@ -183,7 +191,11 @@ test.describe('Header Burger Mode - White Bar Fix', () => {
       await page.goto(BASE_URL);
       await page.setViewportSize({ width: 390, height: 800 });
       
-      await page.evaluate(() => window.scrollTo(0, 150));
+      const hero = page.locator('.hero');
+      const heroBox = await hero.boundingBox();
+      const scrollAmount = heroBox ? heroBox.height + 100 : 150;
+      
+      await page.evaluate((amount) => window.scrollTo(0, amount), scrollAmount);
       await page.waitForTimeout(500);
       
       const header = page.locator('.header');

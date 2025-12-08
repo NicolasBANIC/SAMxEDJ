@@ -54,7 +54,11 @@ describe('Navigation - Desktop', () => {
     const header = page.locator('#header');
     await expect(header).not.toHaveClass(/scrolled/);
     
-    await page.evaluate(() => window.scrollTo(0, 150));
+    const hero = page.locator('.hero');
+    const heroBox = await hero.boundingBox();
+    const scrollAmount = heroBox ? heroBox.height + 100 : 150;
+    
+    await page.evaluate((amount) => window.scrollTo(0, amount), scrollAmount);
     await page.waitForTimeout(100);
     await expect(header).toHaveClass(/scrolled/);
   });
@@ -63,7 +67,11 @@ describe('Navigation - Desktop', () => {
     await page.goto('/');
     const header = page.locator('#header');
     
-    await page.evaluate(() => window.scrollTo(0, 150));
+    const hero = page.locator('.hero');
+    const heroBox = await hero.boundingBox();
+    const scrollAmount = heroBox ? heroBox.height + 100 : 150;
+    
+    await page.evaluate((amount) => window.scrollTo(0, amount), scrollAmount);
     await page.waitForTimeout(100);
     await expect(header).toHaveClass(/scrolled/);
     
