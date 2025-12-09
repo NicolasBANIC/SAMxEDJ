@@ -17,8 +17,8 @@
     --font-title: 'Cormorant Garamond', serif;
     --font-body: 'Inter', sans-serif;
     
-    --container-width: 1600px;
-    --container-padding: 2rem;
+    --container-width: 1650px;
+    --container-padding: 1.5rem;
     
     --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -184,13 +184,13 @@ a {
 }
 
 .header__logo-img {
-    width: 6rem;
-    height: 6rem;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 .header__logo-text {
     font-family: var(--font-title);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
     color: var(--color-primary);
     letter-spacing: 0.05em;
@@ -1018,7 +1018,7 @@ a {
     }
     
     .header__logo-text {
-        font-size: 1.125rem;
+        font-size: 1.5rem;
     }
     
     .btn--primary {
@@ -1225,6 +1225,30 @@ a {
         transform: translateX(-50%) translateY(0);
     }
 }
+@media (max-width: 1100px) and (min-width: 641px) {
+
+    .header__container {
+        padding: 1rem var(--container-padding); /* moins haut que desktop (1.5rem), plus haut que mobile */
+    }
+
+    .header__logo-img {
+        width: 5rem;   /* desktop : 7.5rem / mobile : 4rem */
+        height: 5rem;
+    }
+
+    .header__logo-text {
+        font-size: 1.4rem; /* desktop : 1.7rem / mobile : 1.125rem */
+    }
+
+    /* Optionnel : ajuster un peu la nav déroulante pour suivre la nouvelle hauteur */
+    .header__nav {
+        top: 80px; /* desktop-mobile à 1100px : 85px */
+    }
+
+    .header__nav.active {
+        max-height: calc(100vh - 80px);
+    }
+}
 
 @media (max-width: 640px) {
     :root {
@@ -1236,8 +1260,8 @@ a {
     }
     
     .header__logo-img {
-        width: 50px;
-        height: 50px;
+        width: 4rem;
+        height: 4rem;
     }
     
     .header__nav {
