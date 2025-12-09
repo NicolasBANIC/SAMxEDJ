@@ -17,7 +17,7 @@
     --font-title: 'Cormorant Garamond', serif;
     --font-body: 'Inter', sans-serif;
     
-    --container-width: 1400px;
+    --container-width: 1600px;
     --container-padding: 2rem;
     
     --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
@@ -184,13 +184,13 @@ a {
 }
 
 .header__logo-img {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .header__logo-text {
     font-family: var(--font-title);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-primary);
     letter-spacing: 0.05em;
